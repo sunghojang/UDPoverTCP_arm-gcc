@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR            = arm-none-linux-gnueabi-ar cqs$/;"	m
+CC	Makefile	/^CC            = arm-none-linux-gnueabi-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = arm-none-linux-gnueabi-g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DTCPSERVER_LIBRARY -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = ..\/build\/$/;"	m
+DIST	Makefile	/^DIST          = \/qt\/project\/mkspecs\/common\/unix.conf \\$/;"	m
+INCPATH	Makefile	/^INCPATH       = -I\/qt\/project\/mkspecs\/qws\/linux-arm-g++ -I. -I\/qt\/project\/include\/QtCore -I\/qt\/project\/include\/QtNetwork -I\/qt\/project\/include -I..\/tcpclient -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+IntToArray	tcpserver.cpp	/^QByteArray IntToArray(qint16 source) \/\/ Use qint16 to ensure that the number have 2 bytes$/;"	f
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+OBJECTS	Makefile	/^OBJECTS       = tcpserver.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QMAKE	Makefile	/^QMAKE         = \/qt\/project\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = tcpserver$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = tcpserver.cpp moc_tcpserver.cpp$/;"	m
+STRIP	Makefile	/^STRIP         = arm-none-linux-gnueabi-strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = libtcpserver.a$/;"	m
+TCPSERVER_H	tcpserver.h	8;"	d
+TCPServer	tcpserver.cpp	/^TCPServer::TCPServer(QObject *parent)$/;"	f	class:TCPServer
+TCPServer	tcpserver.h	/^class TCPServer : public QObject$/;"	c
+classname	tcpserver.h	/^    QString classname;$/;"	m	class:TCPServer
+clientDataReceived	tcpserver.cpp	/^void TCPServer::clientDataReceived(const QByteArray &data)$/;"	f	class:TCPServer
+clientError	tcpserver.cpp	/^void TCPServer::clientError(const QString &sender, const QString &message)$/;"	f	class:TCPServer
+clientInfo	tcpserver.cpp	/^void TCPServer::clientInfo(const QString &sender, const QString &message)$/;"	f	class:TCPServer
+clientMap	tcpserver.h	/^    QMap<QTcpSocket *, TCPClient *> clientMap;$/;"	m	class:TCPServer
+clientWarning	tcpserver.cpp	/^void TCPServer::clientWarning(const QString &sender, const QString &message)$/;"	f	class:TCPServer
+connectClient	tcpserver.cpp	/^void TCPServer::connectClient()$/;"	f	class:TCPServer
+connectionCount	moc_tcpserver.cpp	/^void TCPServer::connectionCount(int _t1)$/;"	f	class:TCPServer
+dataReceived	moc_tcpserver.cpp	/^void TCPServer::dataReceived(QByteArray _t1)$/;"	f	class:TCPServer
+disconnectClient	tcpserver.cpp	/^void TCPServer::disconnectClient()$/;"	f	class:TCPServer
+error	moc_tcpserver.cpp	/^void TCPServer::error(QString _t1, QString _t2)$/;"	f	class:TCPServer
+getStaticMetaObject	moc_tcpserver.cpp	/^const QMetaObject &TCPServer::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:TCPServer
+info	moc_tcpserver.cpp	/^void TCPServer::info(QString _t1, QString _t2)$/;"	f	class:TCPServer
+metaObject	moc_tcpserver.cpp	/^const QMetaObject *TCPServer::metaObject() const$/;"	f	class:TCPServer
+qt_meta_data_TCPServer	moc_tcpserver.cpp	/^static const uint qt_meta_data_TCPServer[] = {$/;"	v	file:
+qt_meta_stringdata_TCPServer	moc_tcpserver.cpp	/^static const char qt_meta_stringdata_TCPServer[] = {$/;"	v	file:
+qt_metacall	moc_tcpserver.cpp	/^int TCPServer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TCPServer
+qt_metacast	moc_tcpserver.cpp	/^void *TCPServer::qt_metacast(const char *_clname)$/;"	f	class:TCPServer
+qt_static_metacall	moc_tcpserver.cpp	/^void TCPServer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TCPServer
+sendData	tcpserver.cpp	/^void TCPServer::sendData(const QByteArray &data)$/;"	f	class:TCPServer
+server	tcpserver.h	/^    QTcpServer *server;$/;"	m	class:TCPServer
+socketMap	tcpserver.h	/^    QMap<QTcpSocket *, QTcpSocket *> socketMap;$/;"	m	class:TCPServer
+start	tcpserver.cpp	/^bool TCPServer::start(const quint16 &port)$/;"	f	class:TCPServer
+staticMetaObject	moc_tcpserver.cpp	/^const QMetaObject TCPServer::staticMetaObject = {$/;"	m	class:TCPServer	file:
+staticMetaObjectExtraData	moc_tcpserver.cpp	/^const QMetaObjectExtraData TCPServer::staticMetaObjectExtraData = {$/;"	m	class:TCPServer	file:
+stop	tcpserver.cpp	/^void TCPServer::stop()$/;"	f	class:TCPServer
+warning	moc_tcpserver.cpp	/^void TCPServer::warning(QString _t1, QString _t2)$/;"	f	class:TCPServer

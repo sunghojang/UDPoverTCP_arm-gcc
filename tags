@@ -1,0 +1,440 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	htmllogger/Makefile	/^AR            = arm-none-linux-gnueabi-ar cqs$/;"	m
+AR	snbgui/Makefile	/^AR            = arm-none-linux-gnueabi-ar cqs$/;"	m
+AR	snbtests/Makefile	/^AR            = arm-none-linux-gnueabi-ar cqs$/;"	m
+AR	tcpclient/Makefile	/^AR            = arm-none-linux-gnueabi-ar cqs$/;"	m
+AR	tcpserver/Makefile	/^AR            = arm-none-linux-gnueabi-ar cqs$/;"	m
+AR	udpclient/Makefile	/^AR            = arm-none-linux-gnueabi-ar cqs$/;"	m
+ArrayToInt	tcpclient/tcpclient.cpp	/^qint16 ArrayToInt(QByteArray source) \/\/ Use qint16 to ensure that the number have 2 bytes$/;"	f
+CC	htmllogger/Makefile	/^CC            = arm-none-linux-gnueabi-gcc$/;"	m
+CC	snbgui/Makefile	/^CC            = arm-none-linux-gnueabi-gcc$/;"	m
+CC	snbtests/Makefile	/^CC            = arm-none-linux-gnueabi-gcc$/;"	m
+CC	tcpclient/Makefile	/^CC            = arm-none-linux-gnueabi-gcc$/;"	m
+CC	tcpserver/Makefile	/^CC            = arm-none-linux-gnueabi-gcc$/;"	m
+CC	udpclient/Makefile	/^CC            = arm-none-linux-gnueabi-gcc$/;"	m
+CFLAGS	htmllogger/Makefile	/^CFLAGS        = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	snbgui/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	snbtests/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	tcpclient/Makefile	/^CFLAGS        = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	tcpserver/Makefile	/^CFLAGS        = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	udpclient/Makefile	/^CFLAGS        = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	htmllogger/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	snbgui/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	snbtests/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	tcpclient/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	tcpserver/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	udpclient/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	htmllogger/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	snbgui/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	snbtests/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	tcpclient/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	tcpserver/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	udpclient/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	htmllogger/Makefile	/^COPY          = cp -f$/;"	m
+COPY	snbgui/Makefile	/^COPY          = cp -f$/;"	m
+COPY	snbtests/Makefile	/^COPY          = cp -f$/;"	m
+COPY	tcpclient/Makefile	/^COPY          = cp -f$/;"	m
+COPY	tcpserver/Makefile	/^COPY          = cp -f$/;"	m
+COPY	udpclient/Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	htmllogger/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	snbgui/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	snbtests/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	tcpclient/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	tcpserver/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	udpclient/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	htmllogger/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	snbgui/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	snbtests/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	tcpclient/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	tcpserver/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	udpclient/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	htmllogger/Makefile	/^CXX           = arm-none-linux-gnueabi-g++$/;"	m
+CXX	snbgui/Makefile	/^CXX           = arm-none-linux-gnueabi-g++$/;"	m
+CXX	snbtests/Makefile	/^CXX           = arm-none-linux-gnueabi-g++$/;"	m
+CXX	tcpclient/Makefile	/^CXX           = arm-none-linux-gnueabi-g++$/;"	m
+CXX	tcpserver/Makefile	/^CXX           = arm-none-linux-gnueabi-g++$/;"	m
+CXX	udpclient/Makefile	/^CXX           = arm-none-linux-gnueabi-g++$/;"	m
+CXXFLAGS	htmllogger/Makefile	/^CXXFLAGS      = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	snbgui/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	snbtests/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	tcpclient/Makefile	/^CXXFLAGS      = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	tcpserver/Makefile	/^CXXFLAGS      = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	udpclient/Makefile	/^CXXFLAGS      = -pipe -O2 -fPIC -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	htmllogger/Makefile	/^DEFINES       = -DHTMLLOGGER_LIBRARY -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEFINES	snbgui/Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEFINES	snbtests/Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEFINES	tcpclient/Makefile	/^DEFINES       = -DTCPCLIENT_LIBRARY -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEFINES	tcpserver/Makefile	/^DEFINES       = -DTCPSERVER_LIBRARY -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEFINES	udpclient/Makefile	/^DEFINES       = -DUDPCLIENT_LIBRARY -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	htmllogger/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	snbgui/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	snbtests/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	tcpclient/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	tcpserver/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	udpclient/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	htmllogger/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	snbgui/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	snbtests/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	tcpclient/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	tcpserver/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	udpclient/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	htmllogger/Makefile	/^DESTDIR       = ..\/build\/$/;"	m
+DESTDIR	snbgui/Makefile	/^DESTDIR       = ..\/build\/$/;"	m
+DESTDIR	snbtests/Makefile	/^DESTDIR       = ..\/build\/$/;"	m
+DESTDIR	tcpclient/Makefile	/^DESTDIR       = ..\/build\/$/;"	m
+DESTDIR	tcpserver/Makefile	/^DESTDIR       = ..\/build\/$/;"	m
+DESTDIR	udpclient/Makefile	/^DESTDIR       = ..\/build\/$/;"	m
+DIST	htmllogger/Makefile	/^DIST          = \/qt\/project\/mkspecs\/common\/unix.conf \\$/;"	m
+DIST	snbgui/Makefile	/^DIST          = \/qt\/project\/mkspecs\/common\/unix.conf \\$/;"	m
+DIST	snbtests/Makefile	/^DIST          = \/qt\/project\/mkspecs\/common\/unix.conf \\$/;"	m
+DIST	tcpclient/Makefile	/^DIST          = \/qt\/project\/mkspecs\/common\/unix.conf \\$/;"	m
+DIST	tcpserver/Makefile	/^DIST          = \/qt\/project\/mkspecs\/common\/unix.conf \\$/;"	m
+DIST	udpclient/Makefile	/^DIST          = \/qt\/project\/mkspecs\/common\/unix.conf \\$/;"	m
+HTMLLOGGER_H	htmllogger/htmllogger.h	8;"	d
+HTMLLogger	htmllogger/htmllogger.cpp	/^HTMLLogger::HTMLLogger(QObject *parent) :$/;"	f	class:HTMLLogger
+HTMLLogger	htmllogger/htmllogger.h	/^class HTMLLogger : public QObject$/;"	c
+INCPATH	htmllogger/Makefile	/^INCPATH       = -I\/qt\/project\/mkspecs\/qws\/linux-arm-g++ -I. -I\/qt\/project\/include\/QtCore -I\/qt\/project\/include\/QtNetwork -I\/qt\/project\/include -I.$/;"	m
+INCPATH	snbgui/Makefile	/^INCPATH       = -I\/qt\/project\/mkspecs\/qws\/linux-arm-g++ -I. -I\/qt\/project\/include\/QtCore -I\/qt\/project\/include\/QtNetwork -I\/qt\/project\/include\/QtGui -I\/qt\/project\/include -I..\/tcpserver -I..\/tcpclient -I..\/udpclient -I..\/htmllogger -I. -I.$/;"	m
+INCPATH	snbtests/Makefile	/^INCPATH       = -I\/qt\/project\/mkspecs\/qws\/linux-arm-g++ -I. -I\/qt\/project\/include\/QtCore -I\/qt\/project\/include\/QtNetwork -I\/qt\/project\/include\/QtGui -I\/qt\/project\/include -I..\/udpclient -I..\/htmllogger -I. -I.$/;"	m
+INCPATH	tcpclient/Makefile	/^INCPATH       = -I\/qt\/project\/mkspecs\/qws\/linux-arm-g++ -I. -I\/qt\/project\/include\/QtCore -I\/qt\/project\/include\/QtNetwork -I\/qt\/project\/include -I.$/;"	m
+INCPATH	tcpserver/Makefile	/^INCPATH       = -I\/qt\/project\/mkspecs\/qws\/linux-arm-g++ -I. -I\/qt\/project\/include\/QtCore -I\/qt\/project\/include\/QtNetwork -I\/qt\/project\/include -I..\/tcpclient -I.$/;"	m
+INCPATH	udpclient/Makefile	/^INCPATH       = -I\/qt\/project\/mkspecs\/qws\/linux-arm-g++ -I. -I\/qt\/project\/include\/QtCore -I\/qt\/project\/include\/QtNetwork -I\/qt\/project\/include -I.$/;"	m
+INSTALL_DIR	htmllogger/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	snbgui/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	snbtests/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	tcpclient/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	tcpserver/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	udpclient/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	htmllogger/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	snbgui/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	snbtests/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	tcpclient/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	tcpserver/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	udpclient/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	htmllogger/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	snbgui/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	snbtests/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	tcpclient/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	tcpserver/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	udpclient/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+IntToArray	tcpclient/tcpclient.cpp	/^QByteArray IntToArray(qint16 source) \/\/ Use qint16 to ensure that the number have 2 bytes$/;"	f
+IntToArray	tcpserver/tcpserver.cpp	/^QByteArray IntToArray(qint16 source) \/\/ Use qint16 to ensure that the number have 2 bytes$/;"	f
+LFLAGS	snbgui/Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/qt\/project\/lib$/;"	m
+LFLAGS	snbtests/Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/qt\/project\/lib$/;"	m
+LIBS	snbgui/Makefile	/^LIBS          = $(SUBLIBS)  -L\/qt\/project\/lib -L..\/build -ltcpserver -ltcpclient -ludpclient -lhtmllogger -lQtGui -L\/qt\/project\/lib -lQtNetwork -lQtCore -lpthread $/;"	m
+LIBS	snbtests/Makefile	/^LIBS          = $(SUBLIBS)  -L\/qt\/project\/lib -L..\/build -ludpclient -lhtmllogger -lQtGui -L\/qt\/project\/lib -lQtNetwork -lQtCore -lpthread $/;"	m
+LINK	snbgui/Makefile	/^LINK          = arm-none-linux-gnueabi-g++$/;"	m
+LINK	snbtests/Makefile	/^LINK          = arm-none-linux-gnueabi-g++$/;"	m
+MKDIR	htmllogger/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	snbgui/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	snbtests/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	tcpclient/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	tcpserver/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	udpclient/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	htmllogger/Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	snbgui/Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	snbtests/Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	tcpclient/Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	tcpserver/Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	udpclient/Makefile	/^MOVE          = mv -f$/;"	m
+OBJECTS	htmllogger/Makefile	/^OBJECTS       = htmllogger.o \\$/;"	m
+OBJECTS	snbgui/Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS	snbtests/Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS	tcpclient/Makefile	/^OBJECTS       = tcpclient.o \\$/;"	m
+OBJECTS	tcpserver/Makefile	/^OBJECTS       = tcpserver.o \\$/;"	m
+OBJECTS	udpclient/Makefile	/^OBJECTS       = udpclient.o \\$/;"	m
+OBJECTS_DIR	htmllogger/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	snbgui/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	snbtests/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	tcpclient/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	tcpserver/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECTS_DIR	udpclient/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QMAKE	htmllogger/Makefile	/^QMAKE         = \/qt\/project\/bin\/qmake$/;"	m
+QMAKE	snbgui/Makefile	/^QMAKE         = \/qt\/project\/bin\/qmake$/;"	m
+QMAKE	snbtests/Makefile	/^QMAKE         = \/qt\/project\/bin\/qmake$/;"	m
+QMAKE	tcpclient/Makefile	/^QMAKE         = \/qt\/project\/bin\/qmake$/;"	m
+QMAKE	tcpserver/Makefile	/^QMAKE         = \/qt\/project\/bin\/qmake$/;"	m
+QMAKE	udpclient/Makefile	/^QMAKE         = \/qt\/project\/bin\/qmake$/;"	m
+QMAKE_TARGET	htmllogger/Makefile	/^QMAKE_TARGET  = htmllogger$/;"	m
+QMAKE_TARGET	snbgui/Makefile	/^QMAKE_TARGET  = snbgui$/;"	m
+QMAKE_TARGET	snbtests/Makefile	/^QMAKE_TARGET  = snbtests$/;"	m
+QMAKE_TARGET	tcpclient/Makefile	/^QMAKE_TARGET  = tcpclient$/;"	m
+QMAKE_TARGET	tcpserver/Makefile	/^QMAKE_TARGET  = tcpserver$/;"	m
+QMAKE_TARGET	udpclient/Makefile	/^QMAKE_TARGET  = udpclient$/;"	m
+RANLIB	htmllogger/Makefile	/^RANLIB        = $/;"	m
+RANLIB	snbgui/Makefile	/^RANLIB        = $/;"	m
+RANLIB	snbtests/Makefile	/^RANLIB        = $/;"	m
+RANLIB	tcpclient/Makefile	/^RANLIB        = $/;"	m
+RANLIB	tcpserver/Makefile	/^RANLIB        = $/;"	m
+RANLIB	udpclient/Makefile	/^RANLIB        = $/;"	m
+SED	htmllogger/Makefile	/^SED           = sed$/;"	m
+SED	snbgui/Makefile	/^SED           = sed$/;"	m
+SED	snbtests/Makefile	/^SED           = sed$/;"	m
+SED	tcpclient/Makefile	/^SED           = sed$/;"	m
+SED	tcpserver/Makefile	/^SED           = sed$/;"	m
+SED	udpclient/Makefile	/^SED           = sed$/;"	m
+SNBGUI_H	snbgui/snbgui.h	8;"	d
+SNBGui	snbgui/snbgui.cpp	/^SNBGui::SNBGui(QWidget *parent) :$/;"	f	class:SNBGui
+SNBGui	snbgui/snbgui.h	/^class SNBGui : public QMainWindow$/;"	c
+SNBGui	snbgui/ui_snbgui.h	/^    class SNBGui: public Ui_SNBGui {};$/;"	c	namespace:Ui
+SNBTESTS_H	snbtests/snbtests.h	8;"	d
+SNBTests	snbtests/snbtests.cpp	/^SNBTests::SNBTests(QWidget *parent) :$/;"	f	class:SNBTests
+SNBTests	snbtests/snbtests.h	/^class SNBTests : public QMainWindow$/;"	c
+SNBTests	snbtests/ui_snbtests.h	/^    class SNBTests: public Ui_SNBTests {};$/;"	c	namespace:Ui
+SOURCES	htmllogger/Makefile	/^SOURCES       = htmllogger.cpp moc_htmllogger.cpp$/;"	m
+SOURCES	snbgui/Makefile	/^SOURCES       = main.cpp \\$/;"	m
+SOURCES	snbtests/Makefile	/^SOURCES       = main.cpp \\$/;"	m
+SOURCES	tcpclient/Makefile	/^SOURCES       = tcpclient.cpp moc_tcpclient.cpp$/;"	m
+SOURCES	tcpserver/Makefile	/^SOURCES       = tcpserver.cpp moc_tcpserver.cpp$/;"	m
+SOURCES	udpclient/Makefile	/^SOURCES       = udpclient.cpp moc_udpclient.cpp$/;"	m
+STRIP	htmllogger/Makefile	/^STRIP         = arm-none-linux-gnueabi-strip$/;"	m
+STRIP	snbgui/Makefile	/^STRIP         = arm-none-linux-gnueabi-strip$/;"	m
+STRIP	snbtests/Makefile	/^STRIP         = arm-none-linux-gnueabi-strip$/;"	m
+STRIP	tcpclient/Makefile	/^STRIP         = arm-none-linux-gnueabi-strip$/;"	m
+STRIP	tcpserver/Makefile	/^STRIP         = arm-none-linux-gnueabi-strip$/;"	m
+STRIP	udpclient/Makefile	/^STRIP         = arm-none-linux-gnueabi-strip$/;"	m
+SYMLINK	htmllogger/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	snbgui/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	snbtests/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	tcpclient/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	tcpserver/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	udpclient/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	htmllogger/Makefile	/^TAR           = tar -cf$/;"	m
+TAR	snbgui/Makefile	/^TAR           = tar -cf$/;"	m
+TAR	snbtests/Makefile	/^TAR           = tar -cf$/;"	m
+TAR	tcpclient/Makefile	/^TAR           = tar -cf$/;"	m
+TAR	tcpserver/Makefile	/^TAR           = tar -cf$/;"	m
+TAR	udpclient/Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	htmllogger/Makefile	/^TARGET        = libhtmllogger.a$/;"	m
+TARGET	snbgui/Makefile	/^TARGET        = ..\/build\/snbgui$/;"	m
+TARGET	snbtests/Makefile	/^TARGET        = ..\/build\/snbtests$/;"	m
+TARGET	tcpclient/Makefile	/^TARGET        = libtcpclient.a$/;"	m
+TARGET	tcpserver/Makefile	/^TARGET        = libtcpserver.a$/;"	m
+TARGET	udpclient/Makefile	/^TARGET        = libudpclient.a$/;"	m
+TCPCLIENT_H	tcpclient/tcpclient.h	8;"	d
+TCPClient	tcpclient/tcpclient.cpp	/^TCPClient::TCPClient(QObject *parent)$/;"	f	class:TCPClient
+TCPClient	tcpclient/tcpclient.h	/^class TCPClient : public QObject$/;"	c
+TCPSERVER_H	tcpserver/tcpserver.h	8;"	d
+TCPServer	tcpserver/tcpserver.cpp	/^TCPServer::TCPServer(QObject *parent)$/;"	f	class:TCPServer
+TCPServer	tcpserver/tcpserver.h	/^class TCPServer : public QObject$/;"	c
+UDPCLIENT_H	udpclient/udpclient.h	8;"	d
+UDPClient	udpclient/udpclient.cpp	/^UDPClient::UDPClient(QObject *parent) :$/;"	f	class:UDPClient
+UDPClient	udpclient/udpclient.h	/^class UDPClient : public QObject$/;"	c
+UI_SNBGUI_H	snbgui/ui_snbgui.h	11;"	d
+UI_SNBTESTS_H	snbtests/ui_snbtests.h	11;"	d
+Ui	snbgui/snbgui.h	/^namespace Ui {$/;"	n
+Ui	snbgui/ui_snbgui.h	/^namespace Ui {$/;"	n
+Ui	snbtests/snbtests.h	/^namespace Ui {$/;"	n
+Ui	snbtests/ui_snbtests.h	/^namespace Ui {$/;"	n
+Ui_SNBGui	snbgui/ui_snbgui.h	/^class Ui_SNBGui$/;"	c
+Ui_SNBTests	snbtests/ui_snbtests.h	/^class Ui_SNBTests$/;"	c
+_start	snbgui/snbgui.h	/^    bool _start;$/;"	m	class:SNBGui
+_stop	snbgui/snbgui.h	/^    bool _stop;$/;"	m	class:SNBGui
+addError	htmllogger/htmllogger.cpp	/^void HTMLLogger::addError(QString sender, QString error)$/;"	f	class:HTMLLogger
+addInfo	htmllogger/htmllogger.cpp	/^void HTMLLogger::addInfo(QString sender, QString info)$/;"	f	class:HTMLLogger
+addIpAddressToLog	snbgui/snbgui.cpp	/^void SNBGui::addIpAddressToLog()$/;"	f	class:SNBGui
+addLine	htmllogger/htmllogger.cpp	/^void HTMLLogger::addLine(QString color, QString text)$/;"	f	class:HTMLLogger
+addWarning	htmllogger/htmllogger.cpp	/^void HTMLLogger::addWarning(QString sender, QString warning)$/;"	f	class:HTMLLogger
+blockSize	tcpclient/tcpclient.h	/^    quint16 blockSize;$/;"	m	class:TCPClient
+buffer	tcpclient/tcpclient.h	/^    QByteArray *buffer;$/;"	m	class:TCPClient
+buttonClearLogger	snbgui/ui_snbgui.h	/^    QPushButton *buttonClearLogger;$/;"	m	class:Ui_SNBGui
+buttonClearLogger	snbtests/ui_snbtests.h	/^    QPushButton *buttonClearLogger;$/;"	m	class:Ui_SNBTests
+buttonSend	snbtests/ui_snbtests.h	/^    QPushButton *buttonSend;$/;"	m	class:Ui_SNBTests
+buttonTUStartStop	snbgui/ui_snbgui.h	/^    QPushButton *buttonTUStartStop;$/;"	m	class:Ui_SNBGui
+buttonUTStartStop	snbgui/ui_snbgui.h	/^    QPushButton *buttonUTStartStop;$/;"	m	class:Ui_SNBGui
+centralWidget	snbgui/ui_snbgui.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_SNBGui
+centralWidget	snbtests/ui_snbtests.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_SNBTests
+checkBoxTUBidirectionalEnabled	snbgui/ui_snbgui.h	/^    QCheckBox *checkBoxTUBidirectionalEnabled;$/;"	m	class:Ui_SNBGui
+checkBoxUTBidirectionalEnabled	snbgui/ui_snbgui.h	/^    QCheckBox *checkBoxUTBidirectionalEnabled;$/;"	m	class:Ui_SNBGui
+classname	snbgui/snbgui.h	/^    QString classname;$/;"	m	class:SNBGui
+classname	snbtests/snbtests.h	/^    QString classname;$/;"	m	class:SNBTests
+classname	tcpclient/tcpclient.h	/^    QString classname;$/;"	m	class:TCPClient
+classname	tcpserver/tcpserver.h	/^    QString classname;$/;"	m	class:TCPServer
+classname	udpclient/udpclient.h	/^    QString classname;$/;"	m	class:UDPClient
+clear	htmllogger/htmllogger.cpp	/^void HTMLLogger::clear()$/;"	f	class:HTMLLogger
+clientConnection	tcpclient/tcpclient.h	/^    bool clientConnection;$/;"	m	class:TCPClient
+clientDataReceived	tcpserver/tcpserver.cpp	/^void TCPServer::clientDataReceived(const QByteArray &data)$/;"	f	class:TCPServer
+clientError	tcpserver/tcpserver.cpp	/^void TCPServer::clientError(const QString &sender, const QString &message)$/;"	f	class:TCPServer
+clientInfo	tcpserver/tcpserver.cpp	/^void TCPServer::clientInfo(const QString &sender, const QString &message)$/;"	f	class:TCPServer
+clientMap	tcpserver/tcpserver.h	/^    QMap<QTcpSocket *, TCPClient *> clientMap;$/;"	m	class:TCPServer
+clientWarning	tcpserver/tcpserver.cpp	/^void TCPServer::clientWarning(const QString &sender, const QString &message)$/;"	f	class:TCPServer
+connect	tcpclient/tcpclient.cpp	/^bool TCPClient::connect(QTcpSocket *socket)$/;"	f	class:TCPClient
+connect	tcpclient/tcpclient.cpp	/^bool TCPClient::connect(const QString &host, const qint64 &port)$/;"	f	class:TCPClient
+connect	udpclient/udpclient.cpp	/^bool UDPClient::connect(const qint64 &port)$/;"	f	class:UDPClient
+connectClient	tcpserver/tcpserver.cpp	/^void TCPServer::connectClient()$/;"	f	class:TCPServer
+connectionCount	tcpserver/moc_tcpserver.cpp	/^void TCPServer::connectionCount(int _t1)$/;"	f	class:TCPServer
+controlTcpClient	snbgui/snbgui.cpp	/^bool SNBGui::controlTcpClient(const bool &start)$/;"	f	class:SNBGui
+controlTcpServer	snbgui/snbgui.cpp	/^bool SNBGui::controlTcpServer(const bool &start)$/;"	f	class:SNBGui
+controlUdpClient	snbgui/snbgui.cpp	/^bool SNBGui::controlUdpClient(const bool &start, const bool& server)$/;"	f	class:SNBGui
+dataReceived	tcpclient/moc_tcpclient.cpp	/^void TCPClient::dataReceived(QByteArray _t1)$/;"	f	class:TCPClient
+dataReceived	tcpserver/moc_tcpserver.cpp	/^void TCPServer::dataReceived(QByteArray _t1)$/;"	f	class:TCPServer
+dataReceived	udpclient/moc_udpclient.cpp	/^void UDPClient::dataReceived(QByteArray _t1)$/;"	f	class:UDPClient
+disconnect	tcpclient/tcpclient.cpp	/^void TCPClient::disconnect()$/;"	f	class:TCPClient
+disconnect	udpclient/udpclient.cpp	/^void UDPClient::disconnect()$/;"	f	class:UDPClient
+disconnectClient	tcpserver/tcpserver.cpp	/^void TCPServer::disconnectClient()$/;"	f	class:TCPServer
+displayError	tcpclient/tcpclient.cpp	/^void TCPClient::displayError(QAbstractSocket::SocketError socketError)$/;"	f	class:TCPClient
+displayError	udpclient/udpclient.cpp	/^void UDPClient::displayError(QAbstractSocket::SocketError socketError)$/;"	f	class:UDPClient
+error	tcpclient/moc_tcpclient.cpp	/^void TCPClient::error(QString _t1, QString _t2)$/;"	f	class:TCPClient
+error	tcpserver/moc_tcpserver.cpp	/^void TCPServer::error(QString _t1, QString _t2)$/;"	f	class:TCPServer
+error	udpclient/moc_udpclient.cpp	/^void UDPClient::error(QString _t1, QString _t2)$/;"	f	class:UDPClient
+footer	htmllogger/htmllogger.h	/^    QString footer;$/;"	m	class:HTMLLogger
+formLayout	snbgui/ui_snbgui.h	/^    QFormLayout *formLayout;$/;"	m	class:Ui_SNBGui
+formLayout	snbtests/ui_snbtests.h	/^    QFormLayout *formLayout;$/;"	m	class:Ui_SNBTests
+formLayout_2	snbgui/ui_snbgui.h	/^    QFormLayout *formLayout_2;$/;"	m	class:Ui_SNBGui
+formLayout_3	snbgui/ui_snbgui.h	/^    QFormLayout *formLayout_3;$/;"	m	class:Ui_SNBGui
+formLayout_4	snbgui/ui_snbgui.h	/^    QFormLayout *formLayout_4;$/;"	m	class:Ui_SNBGui
+generateHtmlLog	htmllogger/htmllogger.cpp	/^QString HTMLLogger::generateHtmlLog()$/;"	f	class:HTMLLogger
+getMaxLines	htmllogger/htmllogger.cpp	/^int HTMLLogger::getMaxLines()$/;"	f	class:HTMLLogger
+getStaticMetaObject	htmllogger/moc_htmllogger.cpp	/^const QMetaObject &HTMLLogger::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:HTMLLogger
+getStaticMetaObject	snbgui/moc_snbgui.cpp	/^const QMetaObject &SNBGui::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:SNBGui
+getStaticMetaObject	snbtests/moc_snbtests.cpp	/^const QMetaObject &SNBTests::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:SNBTests
+getStaticMetaObject	tcpclient/moc_tcpclient.cpp	/^const QMetaObject &TCPClient::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:TCPClient
+getStaticMetaObject	tcpserver/moc_tcpserver.cpp	/^const QMetaObject &TCPServer::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:TCPServer
+getStaticMetaObject	udpclient/moc_udpclient.cpp	/^const QMetaObject &UDPClient::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:UDPClient
+header	htmllogger/htmllogger.h	/^    QString header;$/;"	m	class:HTMLLogger
+horizontalLayout	snbgui/ui_snbgui.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_SNBGui
+horizontalLayout	snbtests/ui_snbtests.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_SNBTests
+horizontalLayout_2	snbgui/ui_snbgui.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_SNBGui
+horizontalLayout_2	snbtests/ui_snbtests.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_SNBTests
+horizontalLayout_3	snbgui/ui_snbgui.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_SNBGui
+horizontalSpacer	snbgui/ui_snbgui.h	/^    QSpacerItem *horizontalSpacer;$/;"	m	class:Ui_SNBGui
+horizontalSpacer	snbtests/ui_snbtests.h	/^    QSpacerItem *horizontalSpacer;$/;"	m	class:Ui_SNBTests
+horizontalSpacer_2	snbtests/ui_snbtests.h	/^    QSpacerItem *horizontalSpacer_2;$/;"	m	class:Ui_SNBTests
+horizontalSpacer_3	snbgui/ui_snbgui.h	/^    QSpacerItem *horizontalSpacer_3;$/;"	m	class:Ui_SNBGui
+horizontalSpacer_4	snbgui/ui_snbgui.h	/^    QSpacerItem *horizontalSpacer_4;$/;"	m	class:Ui_SNBGui
+host	tcpclient/tcpclient.h	/^    QString host;$/;"	m	class:TCPClient
+html	htmllogger/htmllogger.h	/^    QStringList html;$/;"	m	class:HTMLLogger
+info	tcpclient/moc_tcpclient.cpp	/^void TCPClient::info(QString _t1, QString _t2)$/;"	f	class:TCPClient
+info	tcpserver/moc_tcpserver.cpp	/^void TCPServer::info(QString _t1, QString _t2)$/;"	f	class:TCPServer
+info	udpclient/moc_udpclient.cpp	/^void UDPClient::info(QString _t1, QString _t2)$/;"	f	class:UDPClient
+label	snbtests/ui_snbtests.h	/^    QLabel *label;$/;"	m	class:Ui_SNBTests
+labelTcpServerAddress	snbgui/ui_snbgui.h	/^    QLabel *labelTcpServerAddress;$/;"	m	class:Ui_SNBGui
+labelTcpServerPort	snbgui/ui_snbgui.h	/^    QLabel *labelTcpServerPort;$/;"	m	class:Ui_SNBGui
+labelTcpServerPort_2	snbgui/ui_snbgui.h	/^    QLabel *labelTcpServerPort_2;$/;"	m	class:Ui_SNBGui
+labelUdpBroadcastPort	snbgui/ui_snbgui.h	/^    QLabel *labelUdpBroadcastPort;$/;"	m	class:Ui_SNBGui
+labelUdpListenPort	snbgui/ui_snbgui.h	/^    QLabel *labelUdpListenPort;$/;"	m	class:Ui_SNBGui
+label_2	snbtests/ui_snbtests.h	/^    QLabel *label_2;$/;"	m	class:Ui_SNBTests
+label_3	snbtests/ui_snbtests.h	/^    QLabel *label_3;$/;"	m	class:Ui_SNBTests
+lineCount	htmllogger/htmllogger.h	/^    int lineCount;$/;"	m	class:HTMLLogger
+lineEdit	snbtests/ui_snbtests.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_SNBTests
+lineEditTcpServerAddress	snbgui/ui_snbgui.h	/^    QLineEdit *lineEditTcpServerAddress;$/;"	m	class:Ui_SNBGui
+logUpdated	htmllogger/moc_htmllogger.cpp	/^void HTMLLogger::logUpdated(QString _t1)$/;"	f	class:HTMLLogger
+logger	snbgui/snbgui.h	/^    HTMLLogger logger;$/;"	m	class:SNBGui
+logger	snbtests/snbtests.h	/^    HTMLLogger logger;$/;"	m	class:SNBTests
+main	snbgui/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	snbtests/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+maxLines	htmllogger/htmllogger.h	/^    int maxLines;$/;"	m	class:HTMLLogger
+menuBar	snbgui/ui_snbgui.h	/^    QMenuBar *menuBar;$/;"	m	class:Ui_SNBGui
+menuBar	snbtests/ui_snbtests.h	/^    QMenuBar *menuBar;$/;"	m	class:Ui_SNBTests
+metaObject	htmllogger/moc_htmllogger.cpp	/^const QMetaObject *HTMLLogger::metaObject() const$/;"	f	class:HTMLLogger
+metaObject	snbgui/moc_snbgui.cpp	/^const QMetaObject *SNBGui::metaObject() const$/;"	f	class:SNBGui
+metaObject	snbtests/moc_snbtests.cpp	/^const QMetaObject *SNBTests::metaObject() const$/;"	f	class:SNBTests
+metaObject	tcpclient/moc_tcpclient.cpp	/^const QMetaObject *TCPClient::metaObject() const$/;"	f	class:TCPClient
+metaObject	tcpserver/moc_tcpserver.cpp	/^const QMetaObject *TCPServer::metaObject() const$/;"	f	class:TCPServer
+metaObject	udpclient/moc_udpclient.cpp	/^const QMetaObject *UDPClient::metaObject() const$/;"	f	class:UDPClient
+on_buttonClearLogger_clicked	snbgui/snbgui.cpp	/^void SNBGui::on_buttonClearLogger_clicked()$/;"	f	class:SNBGui
+on_buttonClearLogger_clicked	snbtests/snbtests.cpp	/^void SNBTests::on_buttonClearLogger_clicked()$/;"	f	class:SNBTests
+on_buttonSend_clicked	snbtests/snbtests.cpp	/^void SNBTests::on_buttonSend_clicked()$/;"	f	class:SNBTests
+on_buttonTUStartStop_clicked	snbgui/snbgui.cpp	/^void SNBGui::on_buttonTUStartStop_clicked()$/;"	f	class:SNBGui
+on_buttonUTStartStop_clicked	snbgui/snbgui.cpp	/^void SNBGui::on_buttonUTStartStop_clicked()$/;"	f	class:SNBGui
+on_spinBoxListenPort_valueChanged	snbtests/snbtests.cpp	/^void SNBTests::on_spinBoxListenPort_valueChanged(int arg1)$/;"	f	class:SNBTests
+port	tcpclient/tcpclient.h	/^    qint64 port;$/;"	m	class:TCPClient
+port	udpclient/udpclient.h	/^    qint64 port;$/;"	m	class:UDPClient
+qt_meta_data_HTMLLogger	htmllogger/moc_htmllogger.cpp	/^static const uint qt_meta_data_HTMLLogger[] = {$/;"	v	file:
+qt_meta_data_SNBGui	snbgui/moc_snbgui.cpp	/^static const uint qt_meta_data_SNBGui[] = {$/;"	v	file:
+qt_meta_data_SNBTests	snbtests/moc_snbtests.cpp	/^static const uint qt_meta_data_SNBTests[] = {$/;"	v	file:
+qt_meta_data_TCPClient	tcpclient/moc_tcpclient.cpp	/^static const uint qt_meta_data_TCPClient[] = {$/;"	v	file:
+qt_meta_data_TCPServer	tcpserver/moc_tcpserver.cpp	/^static const uint qt_meta_data_TCPServer[] = {$/;"	v	file:
+qt_meta_data_UDPClient	udpclient/moc_udpclient.cpp	/^static const uint qt_meta_data_UDPClient[] = {$/;"	v	file:
+qt_meta_stringdata_HTMLLogger	htmllogger/moc_htmllogger.cpp	/^static const char qt_meta_stringdata_HTMLLogger[] = {$/;"	v	file:
+qt_meta_stringdata_SNBGui	snbgui/moc_snbgui.cpp	/^static const char qt_meta_stringdata_SNBGui[] = {$/;"	v	file:
+qt_meta_stringdata_SNBTests	snbtests/moc_snbtests.cpp	/^static const char qt_meta_stringdata_SNBTests[] = {$/;"	v	file:
+qt_meta_stringdata_TCPClient	tcpclient/moc_tcpclient.cpp	/^static const char qt_meta_stringdata_TCPClient[] = {$/;"	v	file:
+qt_meta_stringdata_TCPServer	tcpserver/moc_tcpserver.cpp	/^static const char qt_meta_stringdata_TCPServer[] = {$/;"	v	file:
+qt_meta_stringdata_UDPClient	udpclient/moc_udpclient.cpp	/^static const char qt_meta_stringdata_UDPClient[] = {$/;"	v	file:
+qt_metacall	htmllogger/moc_htmllogger.cpp	/^int HTMLLogger::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:HTMLLogger
+qt_metacall	snbgui/moc_snbgui.cpp	/^int SNBGui::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:SNBGui
+qt_metacall	snbtests/moc_snbtests.cpp	/^int SNBTests::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:SNBTests
+qt_metacall	tcpclient/moc_tcpclient.cpp	/^int TCPClient::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TCPClient
+qt_metacall	tcpserver/moc_tcpserver.cpp	/^int TCPServer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TCPServer
+qt_metacall	udpclient/moc_udpclient.cpp	/^int UDPClient::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:UDPClient
+qt_metacast	htmllogger/moc_htmllogger.cpp	/^void *HTMLLogger::qt_metacast(const char *_clname)$/;"	f	class:HTMLLogger
+qt_metacast	snbgui/moc_snbgui.cpp	/^void *SNBGui::qt_metacast(const char *_clname)$/;"	f	class:SNBGui
+qt_metacast	snbtests/moc_snbtests.cpp	/^void *SNBTests::qt_metacast(const char *_clname)$/;"	f	class:SNBTests
+qt_metacast	tcpclient/moc_tcpclient.cpp	/^void *TCPClient::qt_metacast(const char *_clname)$/;"	f	class:TCPClient
+qt_metacast	tcpserver/moc_tcpserver.cpp	/^void *TCPServer::qt_metacast(const char *_clname)$/;"	f	class:TCPServer
+qt_metacast	udpclient/moc_udpclient.cpp	/^void *UDPClient::qt_metacast(const char *_clname)$/;"	f	class:UDPClient
+qt_static_metacall	htmllogger/moc_htmllogger.cpp	/^void HTMLLogger::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:HTMLLogger
+qt_static_metacall	snbgui/moc_snbgui.cpp	/^void SNBGui::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:SNBGui
+qt_static_metacall	snbtests/moc_snbtests.cpp	/^void SNBTests::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:SNBTests
+qt_static_metacall	tcpclient/moc_tcpclient.cpp	/^void TCPClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TCPClient
+qt_static_metacall	tcpserver/moc_tcpserver.cpp	/^void TCPServer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TCPServer
+qt_static_metacall	udpclient/moc_udpclient.cpp	/^void UDPClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:UDPClient
+readData	tcpclient/tcpclient.cpp	/^void TCPClient::readData()$/;"	f	class:TCPClient
+readData	udpclient/udpclient.cpp	/^void UDPClient::readData()$/;"	f	class:UDPClient
+receivedData	snbtests/snbtests.cpp	/^void SNBTests::receivedData(QByteArray data)$/;"	f	class:SNBTests
+retranslateUi	snbgui/ui_snbgui.h	/^    void retranslateUi(QMainWindow *SNBGui)$/;"	f	class:Ui_SNBGui
+retranslateUi	snbtests/ui_snbtests.h	/^    void retranslateUi(QMainWindow *SNBTests)$/;"	f	class:Ui_SNBTests
+sendData	tcpclient/tcpclient.cpp	/^void TCPClient::sendData(const QByteArray &data)$/;"	f	class:TCPClient
+sendData	tcpserver/tcpserver.cpp	/^void TCPServer::sendData(const QByteArray &data)$/;"	f	class:TCPServer
+sendData	udpclient/udpclient.cpp	/^void UDPClient::sendData(const QByteArray &data)$/;"	f	class:UDPClient
+sendDataFilter	udpclient/udpclient.h	/^    QList<QByteArray> sendDataFilter;$/;"	m	class:UDPClient
+server	tcpserver/tcpserver.h	/^    QTcpServer *server;$/;"	m	class:TCPServer
+setMaxLines	htmllogger/htmllogger.cpp	/^void HTMLLogger::setMaxLines(const int &maxlines)$/;"	f	class:HTMLLogger
+setupUi	snbgui/ui_snbgui.h	/^    void setupUi(QMainWindow *SNBGui)$/;"	f	class:Ui_SNBGui
+setupUi	snbtests/ui_snbtests.h	/^    void setupUi(QMainWindow *SNBTests)$/;"	f	class:Ui_SNBTests
+socketMap	tcpserver/tcpserver.h	/^    QMap<QTcpSocket *, QTcpSocket *> socketMap;$/;"	m	class:TCPServer
+spinBoxBroadcastPort	snbtests/ui_snbtests.h	/^    QSpinBox *spinBoxBroadcastPort;$/;"	m	class:Ui_SNBTests
+spinBoxListenPort	snbtests/ui_snbtests.h	/^    QSpinBox *spinBoxListenPort;$/;"	m	class:Ui_SNBTests
+spinBoxTcpClientPort	snbgui/ui_snbgui.h	/^    QSpinBox *spinBoxTcpClientPort;$/;"	m	class:Ui_SNBGui
+spinBoxTcpServerPort	snbgui/ui_snbgui.h	/^    QSpinBox *spinBoxTcpServerPort;$/;"	m	class:Ui_SNBGui
+spinBoxUdpBroadcastPort	snbgui/ui_snbgui.h	/^    QSpinBox *spinBoxUdpBroadcastPort;$/;"	m	class:Ui_SNBGui
+spinBoxUdpListenPort	snbgui/ui_snbgui.h	/^    QSpinBox *spinBoxUdpListenPort;$/;"	m	class:Ui_SNBGui
+start	tcpserver/tcpserver.cpp	/^bool TCPServer::start(const quint16 &port)$/;"	f	class:TCPServer
+started	snbtests/snbtests.h	/^    bool started;$/;"	m	class:SNBTests
+staticMetaObject	htmllogger/moc_htmllogger.cpp	/^const QMetaObject HTMLLogger::staticMetaObject = {$/;"	m	class:HTMLLogger	file:
+staticMetaObject	snbgui/moc_snbgui.cpp	/^const QMetaObject SNBGui::staticMetaObject = {$/;"	m	class:SNBGui	file:
+staticMetaObject	snbtests/moc_snbtests.cpp	/^const QMetaObject SNBTests::staticMetaObject = {$/;"	m	class:SNBTests	file:
+staticMetaObject	tcpclient/moc_tcpclient.cpp	/^const QMetaObject TCPClient::staticMetaObject = {$/;"	m	class:TCPClient	file:
+staticMetaObject	tcpserver/moc_tcpserver.cpp	/^const QMetaObject TCPServer::staticMetaObject = {$/;"	m	class:TCPServer	file:
+staticMetaObject	udpclient/moc_udpclient.cpp	/^const QMetaObject UDPClient::staticMetaObject = {$/;"	m	class:UDPClient	file:
+staticMetaObjectExtraData	htmllogger/moc_htmllogger.cpp	/^const QMetaObjectExtraData HTMLLogger::staticMetaObjectExtraData = {$/;"	m	class:HTMLLogger	file:
+staticMetaObjectExtraData	snbgui/moc_snbgui.cpp	/^const QMetaObjectExtraData SNBGui::staticMetaObjectExtraData = {$/;"	m	class:SNBGui	file:
+staticMetaObjectExtraData	snbtests/moc_snbtests.cpp	/^const QMetaObjectExtraData SNBTests::staticMetaObjectExtraData = {$/;"	m	class:SNBTests	file:
+staticMetaObjectExtraData	tcpclient/moc_tcpclient.cpp	/^const QMetaObjectExtraData TCPClient::staticMetaObjectExtraData = {$/;"	m	class:TCPClient	file:
+staticMetaObjectExtraData	tcpserver/moc_tcpserver.cpp	/^const QMetaObjectExtraData TCPServer::staticMetaObjectExtraData = {$/;"	m	class:TCPServer	file:
+staticMetaObjectExtraData	udpclient/moc_udpclient.cpp	/^const QMetaObjectExtraData UDPClient::staticMetaObjectExtraData = {$/;"	m	class:UDPClient	file:
+statusBar	snbgui/ui_snbgui.h	/^    QStatusBar *statusBar;$/;"	m	class:Ui_SNBGui
+statusBar	snbtests/ui_snbtests.h	/^    QStatusBar *statusBar;$/;"	m	class:Ui_SNBTests
+stop	tcpserver/tcpserver.cpp	/^void TCPServer::stop()$/;"	f	class:TCPServer
+tabTU	snbgui/ui_snbgui.h	/^    QWidget *tabTU;$/;"	m	class:Ui_SNBGui
+tabUT	snbgui/ui_snbgui.h	/^    QWidget *tabUT;$/;"	m	class:Ui_SNBGui
+tabWidget	snbgui/ui_snbgui.h	/^    QTabWidget *tabWidget;$/;"	m	class:Ui_SNBGui
+tcpSocket	tcpclient/tcpclient.h	/^    QTcpSocket *tcpSocket;$/;"	m	class:TCPClient
+tcpclient	snbgui/snbgui.h	/^    TCPClient *tcpclient;$/;"	m	class:SNBGui
+tcpserver	snbgui/snbgui.h	/^    TCPServer *tcpserver;$/;"	m	class:SNBGui
+textEditLogger	snbgui/ui_snbgui.h	/^    QTextEdit *textEditLogger;$/;"	m	class:Ui_SNBGui
+textEditLogger	snbtests/ui_snbtests.h	/^    QTextEdit *textEditLogger;$/;"	m	class:Ui_SNBTests
+tuStarted	snbgui/snbgui.h	/^    bool tuStarted;$/;"	m	class:SNBGui
+udpListenClient	snbtests/snbtests.h	/^    UDPClient *udpListenClient;$/;"	m	class:SNBTests
+udpSocket	udpclient/udpclient.h	/^    QUdpSocket *udpSocket;$/;"	m	class:UDPClient
+udpclient	snbgui/snbgui.h	/^    UDPClient *udpclient;$/;"	m	class:SNBGui
+ui	snbgui/snbgui.h	/^    Ui::SNBGui *ui;$/;"	m	class:SNBGui
+ui	snbtests/snbtests.h	/^    Ui::SNBTests *ui;$/;"	m	class:SNBTests
+updateConnectionCount	snbgui/snbgui.cpp	/^void SNBGui::updateConnectionCount(int count)$/;"	f	class:SNBGui
+updateLog	snbgui/snbgui.cpp	/^void SNBGui::updateLog(QString log)$/;"	f	class:SNBGui
+updateLog	snbtests/snbtests.cpp	/^void SNBTests::updateLog(QString log)$/;"	f	class:SNBTests
+utStarted	snbgui/snbgui.h	/^    bool utStarted;$/;"	m	class:SNBGui
+verticalLayout	snbtests/ui_snbtests.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_SNBTests
+verticalLayout_2	snbgui/ui_snbgui.h	/^    QVBoxLayout *verticalLayout_2;$/;"	m	class:Ui_SNBGui
+verticalLayout_2	snbtests/ui_snbtests.h	/^    QVBoxLayout *verticalLayout_2;$/;"	m	class:Ui_SNBTests
+warning	tcpclient/moc_tcpclient.cpp	/^void TCPClient::warning(QString _t1, QString _t2)$/;"	f	class:TCPClient
+warning	tcpserver/moc_tcpserver.cpp	/^void TCPServer::warning(QString _t1, QString _t2)$/;"	f	class:TCPServer
+warning	udpclient/moc_udpclient.cpp	/^void UDPClient::warning(QString _t1, QString _t2)$/;"	f	class:UDPClient
+~SNBGui	snbgui/snbgui.cpp	/^SNBGui::~SNBGui()$/;"	f	class:SNBGui
+~SNBTests	snbtests/snbtests.cpp	/^SNBTests::~SNBTests()$/;"	f	class:SNBTests

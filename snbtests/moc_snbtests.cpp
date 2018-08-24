@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'snbtests.h'
 **
-** Created: Fri Aug 24 11:35:23 2018
+** Created: Fri Aug 24 15:36:12 2018
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.2)
 **
 ** WARNING! All changes made in this file will be lost!

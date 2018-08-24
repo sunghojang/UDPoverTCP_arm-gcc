@@ -1,0 +1,10688 @@
+cscope 15 $HOME/TcpIp3/UDPoverTCP               0000062105
+	@htmllogger/htmllogger.cpp
+
+7 
+	~"htmÎogg”.h
+"
+
+9 
+	gHTMLLogg”
+::
+	$HTMLLogg”
+(
+QObjeù
+ *
+·»Á
+) :
+
+10 
+	`QObjeù
+(
+·»Á
+),
+
+11 
+	`maxLšes
+(0),
+
+12 
+	$lšeCouÁ
+(0)
+
+14 
+html
+.
+	`ş—r
+();
+
+16 
+h—d”
+ = "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>Logfile</title></head><body>";
+
+17 
+foÙ”
+ = "</body></html>";
+
+18 
+	}
+}
+
+20 
+	gHTMLLogg”
+::
+	$£tMaxLšes
+(cÚ¡ &
+maxlšes
+)
+
+22 
+maxLšes
+ = 
+maxlšes
+;
+
+23 
+	}
+}
+
+25 
+	gHTMLLogg”
+::
+	$g‘MaxLšes
+()
+
+27  
+maxLšes
+;
+
+28 
+	}
+}
+
+30 
+	gHTMLLogg”
+::
+	$ş—r
+()
+
+32 
+html
+.
+	`ş—r
+();
+
+34 
+em™
+ 
+	`logUpd©ed
+(
+	`g’”©eHtmlLog
+());
+
+35 
+	}
+}
+
+37 
+	gHTMLLogg”
+::
+	$addInfo
+(
+QSŒšg
+ 
+£nd”
+, QSŒšg 
+šfo
+)
+
+39 
+QSŒšg
+ 
+cŞÜ
+ = "black";
+
+40 
+QSŒšg
+ 
+‹xt
+;
+
+41 
+	`addLše
+(
+cŞÜ
+, "INFO: (" + 
+£nd”
+ + "è" + 
+šfo
+);
+
+42 
+	}
+}
+
+44 
+	gHTMLLogg”
+::
+	$addW¬nšg
+(
+QSŒšg
+ 
+£nd”
+, QSŒšg 
+w¬nšg
+)
+
+46 
+QSŒšg
+ 
+cŞÜ
+ = "orange";
+
+47 
+	`addLše
+(
+cŞÜ
+, "WARN: (" + 
+£nd”
+ + "è" + 
+w¬nšg
+);
+
+48 
+	}
+}
+
+50 
+	gHTMLLogg”
+::
+	$addE¼Ü
+(
+QSŒšg
+ 
+£nd”
+, QSŒšg 
+”rÜ
+)
+
+52 
+QSŒšg
+ 
+cŞÜ
+ = "red";
+
+53 
+	`addLše
+(
+cŞÜ
+, "ERROR: (" + 
+£nd”
+ + "è" + 
+”rÜ
+);
+
+54 
+	}
+}
+
+56 
+	gHTMLLogg”
+::
+	$addLše
+(
+QSŒšg
+ 
+cŞÜ
+, QSŒšg 
+‹xt
+)
+
+59 
+QSŒšg
+ 
+lše
+ = "<fÚˆcŞÜ=\"g»y\">[ " + QSŒšg::
+	`numb”
+(++
+lšeCouÁ
+è+ " ] </fÚt><fÚˆcŞÜ=\"" + 
+cŞÜ
+ + "\">" + 
+‹xt
+ + "</font><br/>";
+
+61 
+html
+.
+	`push_äÚt
+(
+lše
+);
+
+64 if(
+maxLšes
+ > 0)
+
+66 
+html
+.
+	`size
+(è> 
+maxLšes
+)
+
+67 
+html
+.
+	`»moveLa¡
+();
+
+70 
+em™
+ 
+	`logUpd©ed
+(
+	`g’”©eHtmlLog
+());
+
+71 
+	}
+}
+
+73 
+QSŒšg
+ 
+	gHTMLLogg”
+::
+	$g’”©eHtmlLog
+()
+
+75  
+h—d”
+ + 
+html
+.
+	`još
+(""è+ 
+foÙ”
+;
+
+76 
+	}
+}
+
+	@htmllogger/htmllogger.h
+
+7 #iâdeà
+HTMLLOGGER_H
+
+
+8 
+	#HTMLLOGGER_H
+
+
+	)
+
+10 
+	~<QObjeù
+>
+
+12 
+	~<QSŒšg
+>
+
+13 
+	~<QSŒšgLi¡
+>
+
+15 şas 
+	cHTMLLogg”
+ : 
+public
+ 
+QObjeù
+
+
+17 
+Q_OBJECT
+
+
+18 
+public
+:
+
+19 
+ex¶ic™
+ 
+HTMLLogg”
+(
+QObjeù
+ *
+·»Á
+ = 0);
+
+21 
+£tMaxLšes
+(cÚ¡ &
+maxlšes
+);
+
+22 
+g‘MaxLšes
+();
+
+24 
+ş—r
+();
+
+26 
+	msigÇls
+:
+
+27 
+logUpd©ed
+(
+QSŒšg
+ 
+html
+);
+
+29 
+public
+ 
+	m¦Ùs
+:
+
+30 
+addInfo
+(
+QSŒšg
+ 
+£nd”
+, QSŒšg 
+šfo
+);
+
+31 
+addW¬nšg
+(
+QSŒšg
+ 
+£nd”
+, QSŒšg 
+w¬nšg
+);
+
+32 
+addE¼Ü
+(
+QSŒšg
+ 
+£nd”
+, QSŒšg 
+”rÜ
+);
+
+34 
+´iv©e
+ 
+	m¦Ùs
+:
+
+35 
+addLše
+(
+QSŒšg
+ 
+cŞÜ
+, QSŒšg 
+‹xt
+);
+
+37 
+	m´iv©e
+:
+
+38 
+QSŒšg
+ 
+g’”©eHtmlLog
+();
+
+40 
+	mmaxLšes
+;
+
+41 
+	mlšeCouÁ
+;
+
+42 
+QSŒšg
+ 
+	mh—d”
+;
+
+43 
+QSŒšg
+ 
+	mfoÙ”
+;
+
+45 
+QSŒšgLi¡
+ 
+	mhtml
+;
+
+	@htmllogger/moc_htmllogger.cpp
+
+10 
+	~"htmÎogg”.h
+"
+
+11 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+13 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 63
+
+19 
+QT_BEGIN_MOC_NAMESPACE
+
+
+20 cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_HTMLLogg”
+[] = {
+
+45 cÚ¡ 
+	gqt_m‘a_¡ršgd©a_HTMLLogg”
+[] = {
+
+53 
+	gHTMLLogg”
+::
+qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+55 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+56 
+Q_ASSERT
+(
+¡©icM‘aObjeù
+.
+ÿ¡
+(
+_o
+));
+
+57 
+HTMLLogg”
+ *
+	g_t
+ = 
+¡©ic_ÿ¡
+<HTMLLogg” *>(
+_o
+);
+
+58 
+	g_id
+) {
+
+59 0: 
+_t
+->
+logUpd©ed
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1]))); ;
+
+60 1: 
+_t
+->
+addInfo
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+61 2: 
+_t
+->
+addW¬nšg
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+62 3: 
+_t
+->
+addE¼Ü
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+63 4: 
+_t
+->
+addLše
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+69 cÚ¡ 
+QM‘aObjeùExŒaD©a
+ 
+	gHTMLLogg”
+::
+¡©icM‘aObjeùExŒaD©a
+ = {
+
+70 0, 
+qt_¡©ic_m‘aÿÎ
+
+
+73 cÚ¡ 
+QM‘aObjeù
+ 
+	gHTMLLogg”
+::
+¡©icM‘aObjeù
+ = {
+
+74 { &
+QObjeù
+::
+¡©icM‘aObjeù
+, 
+qt_m‘a_¡ršgd©a_HTMLLogg”
+,
+
+75 
+qt_m‘a_d©a_HTMLLogg”
+, &
+¡©icM‘aObjeùExŒaD©a
+ }
+
+78 #ifdeà
+Q_NO_DATA_RELOCATION
+
+
+79 cÚ¡ 
+	gQM‘aObjeù
+ &
+	gHTMLLogg”
+::
+	$g‘SticM‘aObjeù
+(è{  
+¡©icM‘aObjeù
+; 
+	}
+}
+
+82 cÚ¡ 
+QM‘aObjeù
+ *
+	gHTMLLogg”
+::
+	$m‘aObjeù
+() const
+
+84  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->m‘aObjeù : &
+¡©icM‘aObjeù
+;
+
+85 
+	}
+}
+
+87 *
+	gHTMLLogg”
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_şÇme
+)
+
+89 ià(!
+_şÇme
+)  0;
+
+90 ià(!
+	`¡rcmp
+(
+_şÇme
+, 
+qt_m‘a_¡ršgd©a_HTMLLogg”
+))
+
+91  
+¡©ic_ÿ¡
+<*>(
+cÚ¡_ÿ¡
+< 
+HTMLLogg”
+*>(
+this
+));
+
+92  
+QObjeù
+::
+	`qt_m‘aÿ¡
+(
+_şÇme
+);
+
+93 
+	}
+}
+
+95 
+	gHTMLLogg”
+::
+qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+97 
+	g_id
+ = 
+QObjeù
+::
+qt_m‘aÿÎ
+(
+_c
+, 
+_id
+, 
+_a
+);
+
+98 ià(
+	g_id
+ < 0)
+
+99  
+	g_id
+;
+
+100 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+101 ià(
+_id
+ < 5)
+
+102 
+qt_¡©ic_m‘aÿÎ
+(
+this
+, 
+_c
+, 
+_id
+, 
+_a
+);
+
+103 
+	g_id
+ -= 5;
+
+105  
+	g_id
+;
+
+109 
+	gHTMLLogg”
+::
+	$logUpd©ed
+(
+QSŒšg
+ 
+_t1
+)
+
+111 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)) };
+
+112 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 0, 
+_a
+);
+
+113 
+	}
+}
+
+114 
+	gQT_END_MOC_NAMESPACE
+
+
+	@snbgui/main.cpp
+
+7 
+	~"¢bgui.h
+"
+
+8 
+	~<QAµliÿtiÚ
+>
+
+10 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+12 
+QAµliÿtiÚ
+ 
+	`a
+(
+¬gc
+, 
+¬gv
+);
+
+13 
+SNBGui
+ 
+w
+;
+
+14 
+w
+.
+	`show
+();
+
+16  
+a
+.
+	`exec
+();
+
+17 
+	}
+}
+
+	@snbgui/moc_snbgui.cpp
+
+10 
+	~"¢bgui.h
+"
+
+11 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+13 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 63
+
+19 
+QT_BEGIN_MOC_NAMESPACE
+
+
+20 cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_SNBGui
+[] = {
+
+43 cÚ¡ 
+	gqt_m‘a_¡ršgd©a_SNBGui
+[] = {
+
+51 
+	gSNBGui
+::
+qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+53 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+54 
+Q_ASSERT
+(
+¡©icM‘aObjeù
+.
+ÿ¡
+(
+_o
+));
+
+55 
+SNBGui
+ *
+	g_t
+ = 
+¡©ic_ÿ¡
+<SNBGu˜*>(
+_o
+);
+
+56 
+	g_id
+) {
+
+57 0: 
+_t
+->
+upd©eLog
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1]))); ;
+
+58 1: 
+_t
+->
+upd©eCÚÃùiÚCouÁ
+((*
+»š‹½»t_ÿ¡
+< (*)>(
+_a
+[1]))); ;
+
+59 2: 
+_t
+->
+Ú_bu‰ÚUTS¹Stİ_şicked
+(); ;
+
+60 3: 
+_t
+->
+Ú_bu‰ÚTUS¹Stİ_şicked
+(); ;
+
+61 4: 
+_t
+->
+Ú_bu‰ÚCË¬Logg”_şicked
+(); ;
+
+67 cÚ¡ 
+QM‘aObjeùExŒaD©a
+ 
+	gSNBGui
+::
+¡©icM‘aObjeùExŒaD©a
+ = {
+
+68 0, 
+qt_¡©ic_m‘aÿÎ
+
+
+71 cÚ¡ 
+QM‘aObjeù
+ 
+	gSNBGui
+::
+¡©icM‘aObjeù
+ = {
+
+72 { &
+QMašWšdow
+::
+¡©icM‘aObjeù
+, 
+qt_m‘a_¡ršgd©a_SNBGui
+,
+
+73 
+qt_m‘a_d©a_SNBGui
+, &
+¡©icM‘aObjeùExŒaD©a
+ }
+
+76 #ifdeà
+Q_NO_DATA_RELOCATION
+
+
+77 cÚ¡ 
+	gQM‘aObjeù
+ &
+	gSNBGui
+::
+	$g‘SticM‘aObjeù
+(è{  
+¡©icM‘aObjeù
+; 
+	}
+}
+
+80 cÚ¡ 
+QM‘aObjeù
+ *
+	gSNBGui
+::
+	$m‘aObjeù
+() const
+
+82  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->m‘aObjeù : &
+¡©icM‘aObjeù
+;
+
+83 
+	}
+}
+
+85 *
+	gSNBGui
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_şÇme
+)
+
+87 ià(!
+_şÇme
+)  0;
+
+88 ià(!
+	`¡rcmp
+(
+_şÇme
+, 
+qt_m‘a_¡ršgd©a_SNBGui
+))
+
+89  
+¡©ic_ÿ¡
+<*>(
+cÚ¡_ÿ¡
+< 
+SNBGui
+*>(
+this
+));
+
+90  
+QMašWšdow
+::
+	`qt_m‘aÿ¡
+(
+_şÇme
+);
+
+91 
+	}
+}
+
+93 
+	gSNBGui
+::
+qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+95 
+	g_id
+ = 
+QMašWšdow
+::
+qt_m‘aÿÎ
+(
+_c
+, 
+_id
+, 
+_a
+);
+
+96 ià(
+	g_id
+ < 0)
+
+97  
+	g_id
+;
+
+98 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+99 ià(
+_id
+ < 5)
+
+100 
+qt_¡©ic_m‘aÿÎ
+(
+this
+, 
+_c
+, 
+_id
+, 
+_a
+);
+
+101 
+	g_id
+ -= 5;
+
+103  
+	g_id
+;
+
+105 
+	gQT_END_MOC_NAMESPACE
+
+
+	@snbgui/snbgui.cpp
+
+7 
+	~<QN‘wÜkIÁ”çû
+>
+
+9 
+	~"¢bgui.h
+"
+
+10 
+	~"ui_¢bgui.h
+"
+
+12 
+	gSNBGui
+::
+	$SNBGui
+(
+QWidg‘
+ *
+·»Á
+) :
+
+13 
+	`QMašWšdow
+(
+·»Á
+),
+
+14 
+	`ui
+(
+Ãw
+ 
+Ui
+::
+SNBGui
+),
+
+15 
+	`tuS¹ed
+(0), 
+	`utS¹ed
+(0),
+
+16 
+	`_¡¬t
+(
+Œue
+), 
+	$_¡İ
+(
+çl£
+)
+
+18 
+ui
+->
+	`£tupUi
+(
+this
+);
+
+19 
+şas¢ame
+ = "SNBGui";
+
+21 
+QObjeù
+::
+	`cÚÃù
+(&
+logg”
+, 
+	`SIGNAL
+(
+	`logUpd©ed
+(
+QSŒšg
+)), 
+this
+, 
+	`SLOT
+(
+	`upd©eLog
+(QString)));
+
+23 
+logg”
+.
+	`addInfo
+(
+şas¢ame
+, "Started");
+
+24 
+logg”
+.
+	`£tMaxLšes
+(1000);
+
+25 
+	}
+}
+
+27 
+	gSNBGui
+::~
+	$SNBGui
+()
+
+29 
+d–‘e
+ 
+ui
+;
+
+30 
+	}
+}
+
+32 
+	gSNBGui
+::
+	$upd©eLog
+(
+QSŒšg
+ 
+log
+)
+
+34 
+ui
+->
+‹xtEd™Logg”
+->
+	`£tHtml
+(
+log
+);
+
+35 
+	}
+}
+
+37 
+	gSNBGui
+::
+	$upd©eCÚÃùiÚCouÁ
+(
+couÁ
+)
+
+39 if(
+utS¹ed
+)
+
+40 
+ui
+->
+¡©usB¬
+->
+	`showMes§ge
+("CÚÃùed TCP Cl›Ás: " + 
+QSŒšg
+::
+	`numb”
+(
+couÁ
+));
+
+42 
+ui
+->
+¡©usB¬
+->
+	`showMes§ge
+("");
+
+43 
+	}
+}
+
+45 
+	gSNBGui
+::
+	$Ú_bu‰ÚUTS¹Stİ_şicked
+()
+
+47 if(
+tuS¹ed
+)
+
+49 
+logg”
+.
+	`addE¼Ü
+(
+şas¢ame
+, "cannot start both services simultaneously");
+
+53 if(
+utS¹ed
+)
+
+56 
+ui
+->
+bu‰ÚUTS¹Stİ
+->
+	`£tText
+("Start");
+
+57 
+ui
+->
+bTU
+->
+	`£tDi§bËd
+(
+çl£
+);
+
+58 
+ui
+->
+¥šBoxUdpLi¡’PÜt
+->
+	`£tDi§bËd
+(
+çl£
+);
+
+59 
+ui
+->
+¥šBoxTıS”v”PÜt
+->
+	`£tDi§bËd
+(
+çl£
+);
+
+62 
+	`cÚŒŞTıS”v”
+(
+_¡İ
+);
+
+63 
+	`cÚŒŞUdpCl›Á
+(
+_¡İ
+, 
+Œue
+);
+
+65 
+	`upd©eCÚÃùiÚCouÁ
+(0);
+
+67 
+utS¹ed
+ = 
+çl£
+;
+
+72 
+ui
+->
+bu‰ÚUTS¹Stİ
+->
+	`£tText
+("Stop");
+
+73 
+ui
+->
+bTU
+->
+	`£tDi§bËd
+(
+Œue
+);
+
+74 
+ui
+->
+¥šBoxUdpLi¡’PÜt
+->
+	`£tDi§bËd
+(
+Œue
+);
+
+75 
+ui
+->
+¥šBoxTıS”v”PÜt
+->
+	`£tDi§bËd
+(
+Œue
+);
+
+78 
+tı£rv”
+ = 
+Ãw
+ 
+	`TCPS”v”
+();
+
+79 
+udpş›Á
+ = 
+Ãw
+ 
+	`UDPCl›Á
+();
+
+82 
+	`addIpAdd»ssToLog
+();
+
+86 
+	`cÚŒŞTıS”v”
+(
+_¡¬t
+);
+
+87 
+	`cÚŒŞUdpCl›Á
+(
+_¡¬t
+, 
+Œue
+);
+
+89 
+	`upd©eCÚÃùiÚCouÁ
+(0);
+
+91 
+utS¹ed
+ = 
+Œue
+;
+
+93 
+	}
+}
+
+95 
+	gSNBGui
+::
+	$Ú_bu‰ÚTUS¹Stİ_şicked
+()
+
+97 if(
+utS¹ed
+)
+
+99 
+logg”
+.
+	`addE¼Ü
+(
+şas¢ame
+, "cannot start both services simultaneously");
+
+103 if(
+tuS¹ed
+)
+
+106 
+ui
+->
+bu‰ÚTUS¹Stİ
+->
+	`£tText
+("Start");
+
+107 
+ui
+->
+bUT
+->
+	`£tDi§bËd
+(
+çl£
+);
+
+108 
+ui
+->
+¥šBoxUdpBrßdÿ¡PÜt
+->
+	`£tDi§bËd
+(
+çl£
+);
+
+109 
+ui
+->
+¥šBoxTıCl›ÁPÜt
+->
+	`£tDi§bËd
+(
+çl£
+);
+
+110 
+ui
+->
+lšeEd™TıS”v”Add»ss
+->
+	`£tDi§bËd
+(
+çl£
+);
+
+111 
+ui
+->
+¡©usB¬
+->
+	`showMes§ge
+("");
+
+114 
+	`cÚŒŞTıCl›Á
+(
+_¡İ
+);
+
+115 
+	`cÚŒŞUdpCl›Á
+(
+_¡İ
+, 
+çl£
+);
+
+117 
+	`upd©eCÚÃùiÚCouÁ
+(0);
+
+119 
+tuS¹ed
+ = 
+çl£
+;
+
+124 
+ui
+->
+bu‰ÚTUS¹Stİ
+->
+	`£tText
+("Stop");
+
+125 
+ui
+->
+bUT
+->
+	`£tDi§bËd
+(
+Œue
+);
+
+126 
+ui
+->
+¥šBoxUdpBrßdÿ¡PÜt
+->
+	`£tDi§bËd
+(
+Œue
+);
+
+127 
+ui
+->
+¥šBoxTıCl›ÁPÜt
+->
+	`£tDi§bËd
+(
+Œue
+);
+
+128 
+ui
+->
+lšeEd™TıS”v”Add»ss
+->
+	`£tDi§bËd
+(
+Œue
+);
+
+129 
+ui
+->
+¡©usB¬
+->
+	`showMes§ge
+("CÚÃùedØ" + ui->
+lšeEd™TıS”v”Add»ss
+->
+	`‹xt
+(è+ ":" + 
+QSŒšg
+::
+	`numb”
+(ui->
+¥šBoxTıCl›ÁPÜt
+->
+	`v®ue
+()));
+
+132 
+udpş›Á
+ = 
+Ãw
+ 
+	`UDPCl›Á
+();
+
+133 
+tış›Á
+ = 
+Ãw
+ 
+	`TCPCl›Á
+();
+
+136 
+	`cÚŒŞTıCl›Á
+(
+_¡¬t
+);
+
+137 
+	`cÚŒŞUdpCl›Á
+(
+_¡¬t
+, 
+çl£
+);
+
+139 
+	`upd©eCÚÃùiÚCouÁ
+(0);
+
+141 
+tuS¹ed
+ = 
+Œue
+;
+
+143 
+	}
+}
+
+145 
+	gSNBGui
+::
+	$Ú_bu‰ÚCË¬Logg”_şicked
+()
+
+147 
+logg”
+.
+	`ş—r
+();
+
+148 
+	}
+}
+
+150 
+boŞ
+ 
+	gSNBGui
+::
+	$cÚŒŞTıS”v”
+(cÚ¡ 
+boŞ
+ &
+¡¬t
+)
+
+152 if(
+¡¬t
+)
+
+154 
+QObjeù
+::
+	`cÚÃù
+(
+tı£rv”
+, 
+	`SIGNAL
+(
+	`cÚÃùiÚCouÁ
+()), 
+this
+, 
+	`SLOT
+(
+	`upd©eCÚÃùiÚCouÁ
+()));
+
+155 ià(
+ui
+->
+checkBoxTUBidœeùiÚ®EÇbËd
+->
+	`isChecked
+())
+
+157 
+QObjeù
+::
+	`cÚÃù
+(
+tı£rv”
+, 
+	`SIGNAL
+(
+	`d©aReûived
+(
+QBy‹A¼ay
+)), 
+udpş›Á
+, 
+	`SLOT
+(
+	`£ndD©a
+(QByteArray)));
+
+161 
+QObjeù
+::
+	`cÚÃù
+(
+tı£rv”
+, 
+	`SIGNAL
+(
+	`šfo
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addInfo
+(QString,QString)));
+
+162 
+QObjeù
+::
+	`cÚÃù
+(
+tı£rv”
+, 
+	`SIGNAL
+(
+	`w¬nšg
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addW¬nšg
+(QString,QString)));
+
+163 
+QObjeù
+::
+	`cÚÃù
+(
+tı£rv”
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addE¼Ü
+(QString,QString)));
+
+165 ià(!
+tı£rv”
+->
+	`¡¬t
+(
+ui
+->
+¥šBoxTıS”v”PÜt
+->
+	`v®ue
+()))
+
+167 
+logg”
+.
+	`addE¼Ü
+(
+şas¢ame
+, "TCP server failedo start");
+
+168  
+çl£
+;
+
+174 
+tı£rv”
+->
+	`¡İ
+();
+
+175 
+tı£rv”
+->
+	`d–‘eL©”
+();
+
+177  
+Œue
+;
+
+178 
+	}
+}
+
+180 
+boŞ
+ 
+	gSNBGui
+::
+	$cÚŒŞTıCl›Á
+(cÚ¡ 
+boŞ
+ &
+¡¬t
+)
+
+182 if(
+¡¬t
+)
+
+185 
+tış›Á
+ = 
+Ãw
+ 
+	`TCPCl›Á
+();
+
+187 
+QObjeù
+::
+	`cÚÃù
+(
+tış›Á
+, 
+	`SIGNAL
+(
+	`d©aReûived
+(
+QBy‹A¼ay
+)), 
+udpş›Á
+, 
+	`SLOT
+(
+	`£ndD©a
+(QByteArray)));
+
+190 
+QObjeù
+::
+	`cÚÃù
+(
+tış›Á
+, 
+	`SIGNAL
+(
+	`šfo
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addInfo
+(QString,QString)));
+
+191 
+QObjeù
+::
+	`cÚÃù
+(
+tış›Á
+, 
+	`SIGNAL
+(
+	`w¬nšg
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addW¬nšg
+(QString,QString)));
+
+192 
+QObjeù
+::
+	`cÚÃù
+(
+tış›Á
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addE¼Ü
+(QString,QString)));
+
+194 ià(!
+tış›Á
+->
+	`cÚÃù
+(
+ui
+->
+lšeEd™TıS”v”Add»ss
+->
+	`‹xt
+(), ui->
+¥šBoxTıCl›ÁPÜt
+->
+	`v®ue
+()))
+
+196 
+logg”
+.
+	`addE¼Ü
+(
+şas¢ame
+, "TCP client failedo start");
+
+197  
+çl£
+;
+
+203 
+tış›Á
+->
+	`discÚÃù
+();
+
+204 
+tış›Á
+->
+	`d–‘eL©”
+();
+
+206  
+Œue
+;
+
+207 
+	}
+}
+
+209 
+boŞ
+ 
+	gSNBGui
+::
+	$cÚŒŞUdpCl›Á
+(cÚ¡ 
+boŞ
+ &
+¡¬t
+, cÚ¡ boŞ& 
+£rv”
+)
+
+211 if(
+¡¬t
+)
+
+213 if(
+£rv”
+)
+
+215 
+QObjeù
+::
+	`cÚÃù
+(
+udpş›Á
+, 
+	`SIGNAL
+(
+	`d©aReûived
+(
+QBy‹A¼ay
+)), 
+tı£rv”
+, 
+	`SLOT
+(
+	`£ndD©a
+(QByteArray)));
+
+219 ià(
+ui
+->
+checkBoxUTBidœeùiÚ®EÇbËd
+->
+	`isChecked
+())
+
+221 
+QObjeù
+::
+	`cÚÃù
+(
+udpş›Á
+, 
+	`SIGNAL
+(
+	`d©aReûived
+(
+QBy‹A¼ay
+)), 
+tış›Á
+, 
+	`SLOT
+(
+	`£ndD©a
+(QByteArray)));
+
+225 
+QObjeù
+::
+	`cÚÃù
+(
+udpş›Á
+, 
+	`SIGNAL
+(
+	`šfo
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addInfo
+(QString,QString)));
+
+226 
+QObjeù
+::
+	`cÚÃù
+(
+udpş›Á
+, 
+	`SIGNAL
+(
+	`w¬nšg
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addW¬nšg
+(QString,QString)));
+
+227 
+QObjeù
+::
+	`cÚÃù
+(
+udpş›Á
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addE¼Ü
+(QString,QString)));
+
+229 if(
+£rv”
+)
+
+230 {ià(!
+udpş›Á
+->
+	`cÚÃù
+(
+ui
+->
+¥šBoxUdpLi¡’PÜt
+->
+	`v®ue
+()))
+
+232 
+logg”
+.
+	`addE¼Ü
+(
+şas¢ame
+, "UDP client failedo start");
+
+233  
+çl£
+;
+
+238 ià(!
+udpş›Á
+->
+	`cÚÃù
+(
+ui
+->
+¥šBoxUdpBrßdÿ¡PÜt
+->
+	`v®ue
+()))
+
+240 
+logg”
+.
+	`addE¼Ü
+(
+şas¢ame
+, "UDP client failedo start");
+
+241  
+çl£
+;
+
+248 
+udpş›Á
+->
+	`discÚÃù
+();
+
+249 
+udpş›Á
+->
+	`d–‘eL©”
+();
+
+251  
+Œue
+;
+
+252 
+	}
+}
+
+254 
+	gSNBGui
+::
+	$addIpAdd»ssToLog
+()
+
+256 
+QLi¡
+<
+QHo¡Add»ss
+> 
+li¡
+ = 
+QN‘wÜkIÁ”çû
+::
+	`®lAdd»s£s
+();
+
+257 
+i
+ = 0; i < 
+li¡
+.
+	`size
+(); ++i)
+
+259 ià(
+li¡
+[
+i
+].
+	`´ÙocŞ
+(è=ğ
+QAb¡¿ùSock‘
+::
+IPv4PrÙocŞ
+ )
+
+261 
+logg”
+.
+	`addInfo
+(
+şas¢ame
+, " - Add»s IPv4: " + 
+li¡
+[
+i
+].
+	`toSŒšg
+());
+
+263 ià(
+li¡
+[
+i
+].
+	`´ÙocŞ
+(è=ğ
+QAb¡¿ùSock‘
+::
+IPv6PrÙocŞ
+ )
+
+265 
+logg”
+.
+	`addInfo
+(
+şas¢ame
+, " - Add»s IPv6: " + 
+li¡
+[
+i
+].
+	`toSŒšg
+());
+
+269 
+logg”
+.
+	`addW¬nšg
+(
+şas¢ame
+, " - unknown: " + 
+li¡
+[
+i
+].
+	`toSŒšg
+());
+
+272 
+	}
+}
+
+	@snbgui/snbgui.h
+
+7 #iâdeà
+SNBGUI_H
+
+
+8 
+	#SNBGUI_H
+
+
+	)
+
+10 
+	~<QMašWšdow
+>
+
+11 
+	~<QSŒšg
+>
+
+13 
+	~"htmÎogg”.h
+"
+
+14 
+	~"tış›Á.h
+"
+
+15 
+	~"tı£rv”.h
+"
+
+16 
+	~"udpş›Á.h
+"
+
+19 
+Çme¥aû
+ 
+	gUi
+ {
+
+20 
+şass
+ 
+	gSNBGui
+;
+
+23 şas 
+	cSNBGui
+ : 
+public
+ 
+QMašWšdow
+
+
+25 
+Q_OBJECT
+
+
+27 
+public
+:
+
+28 
+ex¶ic™
+ 
+SNBGui
+(
+QWidg‘
+ *
+·»Á
+ = 0);
+
+29 ~
+SNBGui
+();
+
+31 
+´iv©e
+ 
+	m¦Ùs
+:
+
+32 
+upd©eLog
+(
+QSŒšg
+ 
+log
+);
+
+33 
+upd©eCÚÃùiÚCouÁ
+(
+couÁ
+);
+
+35 
+Ú_bu‰ÚUTS¹Stİ_şicked
+();
+
+36 
+Ú_bu‰ÚTUS¹Stİ_şicked
+();
+
+38 
+Ú_bu‰ÚCË¬Logg”_şicked
+();
+
+40 
+	m´iv©e
+:
+
+41 
+boŞ
+ 
+cÚŒŞTıS”v”
+(cÚ¡ boŞ &
+¡¬t
+);
+
+42 
+boŞ
+ 
+cÚŒŞTıCl›Á
+(cÚ¡ boŞ &
+¡¬t
+);
+
+43 
+boŞ
+ 
+cÚŒŞUdpCl›Á
+(cÚ¡ boŞ &
+¡¬t
+, cÚ¡ boŞ &
+£rv”
+);
+
+45 
+addIpAdd»ssToLog
+();
+
+47 
+	mUi
+::
+SNBGui
+ *
+ui
+;
+
+48 
+HTMLLogg”
+ 
+	mlogg”
+;
+
+50 
+TCPCl›Á
+ *
+	mtış›Á
+;
+
+51 
+TCPS”v”
+ *
+	mtı£rv”
+;
+
+52 
+UDPCl›Á
+ *
+	mudpş›Á
+;
+
+55 
+boŞ
+ 
+	mtuS¹ed
+;
+
+56 
+boŞ
+ 
+	mutS¹ed
+;
+
+58 
+boŞ
+ 
+	m_¡¬t
+;
+
+59 
+boŞ
+ 
+	m_¡İ
+;
+
+61 
+QSŒšg
+ 
+	mşas¢ame
+;
+
+	@snbgui/ui_snbgui.h
+
+10 #iâdeà
+UI_SNBGUI_H
+
+
+11 
+	#UI_SNBGUI_H
+
+
+	)
+
+13 
+	~<QtCÜe/QV¬ŸÁ
+>
+
+14 
+	~<QtGui/QAùiÚ
+>
+
+15 
+	~<QtGui/QAµliÿtiÚ
+>
+
+16 
+	~<QtGui/QBu‰ÚGroup
+>
+
+17 
+	~<QtGui/QCheckBox
+>
+
+18 
+	~<QtGui/QFÜmLayout
+>
+
+19 
+	~<QtGui/QHBoxLayout
+>
+
+20 
+	~<QtGui/QH—d”V›w
+>
+
+21 
+	~<QtGui/QLab–
+>
+
+22 
+	~<QtGui/QLšeEd™
+>
+
+23 
+	~<QtGui/QMašWšdow
+>
+
+24 
+	~<QtGui/QM’uB¬
+>
+
+25 
+	~<QtGui/QPushBu‰Ú
+>
+
+26 
+	~<QtGui/QS·ûrI‹m
+>
+
+27 
+	~<QtGui/QSpšBox
+>
+
+28 
+	~<QtGui/QStusB¬
+>
+
+29 
+	~<QtGui/QTabWidg‘
+>
+
+30 
+	~<QtGui/QTextEd™
+>
+
+31 
+	~<QtGui/QVBoxLayout
+>
+
+32 
+	~<QtGui/QWidg‘
+>
+
+34 
+QT_BEGIN_NAMESPACE
+
+
+36 şas 
+	cUi_SNBGui
+
+
+38 
+	mpublic
+:
+
+39 
+QWidg‘
+ *
+ûÁ¿lWidg‘
+;
+
+40 
+QVBoxLayout
+ *
+	mv”tiÿlLayout_2
+;
+
+41 
+QTabWidg‘
+ *
+	mbWidg‘
+;
+
+42 
+QWidg‘
+ *
+	mbUT
+;
+
+43 
+QFÜmLayout
+ *
+	mfÜmLayout_2
+;
+
+44 
+QFÜmLayout
+ *
+	mfÜmLayout
+;
+
+45 
+QLab–
+ *
+	mÏb–UdpLi¡’PÜt
+;
+
+46 
+QSpšBox
+ *
+	m¥šBoxUdpLi¡’PÜt
+;
+
+47 
+QLab–
+ *
+	mÏb–TıS”v”PÜt
+;
+
+48 
+QSpšBox
+ *
+	m¥šBoxTıS”v”PÜt
+;
+
+49 
+QHBoxLayout
+ *
+	mhÜizÚlLayout_2
+;
+
+50 
+QPushBu‰Ú
+ *
+	mbu‰ÚUTS¹Stİ
+;
+
+51 
+QS·ûrI‹m
+ *
+	mhÜizÚlS·ûr_4
+;
+
+52 
+QCheckBox
+ *
+	mcheckBoxUTBidœeùiÚ®EÇbËd
+;
+
+53 
+QWidg‘
+ *
+	mbTU
+;
+
+54 
+QFÜmLayout
+ *
+	mfÜmLayout_4
+;
+
+55 
+QFÜmLayout
+ *
+	mfÜmLayout_3
+;
+
+56 
+QLab–
+ *
+	mÏb–TıS”v”Add»ss
+;
+
+57 
+QLšeEd™
+ *
+	mlšeEd™TıS”v”Add»ss
+;
+
+58 
+QLab–
+ *
+	mÏb–TıS”v”PÜt_2
+;
+
+59 
+QSpšBox
+ *
+	m¥šBoxTıCl›ÁPÜt
+;
+
+60 
+QLab–
+ *
+	mÏb–UdpBrßdÿ¡PÜt
+;
+
+61 
+QSpšBox
+ *
+	m¥šBoxUdpBrßdÿ¡PÜt
+;
+
+62 
+QHBoxLayout
+ *
+	mhÜizÚlLayout_3
+;
+
+63 
+QPushBu‰Ú
+ *
+	mbu‰ÚTUS¹Stİ
+;
+
+64 
+QS·ûrI‹m
+ *
+	mhÜizÚlS·ûr_3
+;
+
+65 
+QCheckBox
+ *
+	mcheckBoxTUBidœeùiÚ®EÇbËd
+;
+
+66 
+QTextEd™
+ *
+	m‹xtEd™Logg”
+;
+
+67 
+QHBoxLayout
+ *
+	mhÜizÚlLayout
+;
+
+68 
+QS·ûrI‹m
+ *
+	mhÜizÚlS·ûr
+;
+
+69 
+QPushBu‰Ú
+ *
+	mbu‰ÚCË¬Logg”
+;
+
+70 
+QM’uB¬
+ *
+	mm’uB¬
+;
+
+71 
+QStusB¬
+ *
+	m¡©usB¬
+;
+
+73 
+	$£tupUi
+(
+QMašWšdow
+ *
+SNBGui
+)
+
+75 ià(
+SNBGui
+->
+	`objeùName
+().
+	`isEm±y
+())
+
+76 
+SNBGui
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("SNBGui"));
+
+77 
+SNBGui
+->
+	`»size
+(801, 488);
+
+78 
+ûÁ¿lWidg‘
+ = 
+Ãw
+ 
+	`QWidg‘
+(
+SNBGui
+);
+
+79 
+ûÁ¿lWidg‘
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("centralWidget"));
+
+80 
+v”tiÿlLayout_2
+ = 
+Ãw
+ 
+	`QVBoxLayout
+(
+ûÁ¿lWidg‘
+);
+
+81 
+v”tiÿlLayout_2
+->
+	`£tS·cšg
+(6);
+
+82 
+v”tiÿlLayout_2
+->
+	`£tCÚ‹ÁsM¬gšs
+(11, 11, 11, 11);
+
+83 
+v”tiÿlLayout_2
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("verticalLayout_2"));
+
+84 
+bWidg‘
+ = 
+Ãw
+ 
+	`QTabWidg‘
+(
+ûÁ¿lWidg‘
+);
+
+85 
+bWidg‘
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("tabWidget"));
+
+86 
+QSizePŞicy
+ 
+	`sizePŞicy
+(QSizePŞicy::
+Ex·ndšg
+, QSizePŞicy::
+Mšimum
+);
+
+87 
+sizePŞicy
+.
+	`£tHÜizÚlSŒ‘ch
+(0);
+
+88 
+sizePŞicy
+.
+	`£tV”tiÿlSŒ‘ch
+(0);
+
+89 
+sizePŞicy
+.
+	`£tHeightFÜWidth
+(
+bWidg‘
+->
+	`sizePŞicy
+().
+	`hasHeightFÜWidth
+());
+
+90 
+bWidg‘
+->
+	`£tSizePŞicy
+(
+sizePŞicy
+);
+
+91 
+bUT
+ = 
+Ãw
+ 
+	`QWidg‘
+();
+
+92 
+bUT
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("tabUT"));
+
+93 
+fÜmLayout_2
+ = 
+Ãw
+ 
+	`QFÜmLayout
+(
+bUT
+);
+
+94 
+fÜmLayout_2
+->
+	`£tS·cšg
+(6);
+
+95 
+fÜmLayout_2
+->
+	`£tCÚ‹ÁsM¬gšs
+(11, 11, 11, 11);
+
+96 
+fÜmLayout_2
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("formLayout_2"));
+
+97 
+fÜmLayout_2
+->
+	`£tF›ldGrowthPŞicy
+(
+QFÜmLayout
+::
+AÎNÚFixedF›ldsGrow
+);
+
+98 
+fÜmLayout
+ = 
+Ãw
+ 
+	`QFÜmLayout
+();
+
+99 
+fÜmLayout
+->
+	`£tS·cšg
+(6);
+
+100 
+fÜmLayout
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("formLayout"));
+
+102 
+fÜmLayout_2
+->
+	`£tLayout
+(1, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+fÜmLayout
+);
+
+104 
+Ïb–UdpLi¡’PÜt
+ = 
+Ãw
+ 
+	`QLab–
+(
+bUT
+);
+
+105 
+Ïb–UdpLi¡’PÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("labelUdpListenPort"));
+
+107 
+fÜmLayout_2
+->
+	`£tWidg‘
+(2, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+Ïb–UdpLi¡’PÜt
+);
+
+109 
+¥šBoxUdpLi¡’PÜt
+ = 
+Ãw
+ 
+	`QSpšBox
+(
+bUT
+);
+
+110 
+¥šBoxUdpLi¡’PÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("spinBoxUdpListenPort"));
+
+111 
+¥šBoxUdpLi¡’PÜt
+->
+	`£tMšimum
+(1000);
+
+112 
+¥šBoxUdpLi¡’PÜt
+->
+	`£tMaximum
+(100000);
+
+113 
+¥šBoxUdpLi¡’PÜt
+->
+	`£tSšgËS‹p
+(10);
+
+114 
+¥šBoxUdpLi¡’PÜt
+->
+	`£tV®ue
+(5670);
+
+116 
+fÜmLayout_2
+->
+	`£tWidg‘
+(2, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+¥šBoxUdpLi¡’PÜt
+);
+
+118 
+Ïb–TıS”v”PÜt
+ = 
+Ãw
+ 
+	`QLab–
+(
+bUT
+);
+
+119 
+Ïb–TıS”v”PÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("labelTcpServerPort"));
+
+121 
+fÜmLayout_2
+->
+	`£tWidg‘
+(3, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+Ïb–TıS”v”PÜt
+);
+
+123 
+¥šBoxTıS”v”PÜt
+ = 
+Ãw
+ 
+	`QSpšBox
+(
+bUT
+);
+
+124 
+¥šBoxTıS”v”PÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("spinBoxTcpServerPort"));
+
+125 
+¥šBoxTıS”v”PÜt
+->
+	`£tMšimum
+(1000);
+
+126 
+¥šBoxTıS”v”PÜt
+->
+	`£tMaximum
+(100000);
+
+127 
+¥šBoxTıS”v”PÜt
+->
+	`£tSšgËS‹p
+(10);
+
+128 
+¥šBoxTıS”v”PÜt
+->
+	`£tV®ue
+(60000);
+
+130 
+fÜmLayout_2
+->
+	`£tWidg‘
+(3, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+¥šBoxTıS”v”PÜt
+);
+
+132 
+hÜizÚlLayout_2
+ = 
+Ãw
+ 
+	`QHBoxLayout
+();
+
+133 
+hÜizÚlLayout_2
+->
+	`£tS·cšg
+(6);
+
+134 
+hÜizÚlLayout_2
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("horizontalLayout_2"));
+
+135 
+bu‰ÚUTS¹Stİ
+ = 
+Ãw
+ 
+	`QPushBu‰Ú
+(
+bUT
+);
+
+136 
+bu‰ÚUTS¹Stİ
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("buttonUTStartStop"));
+
+138 
+hÜizÚlLayout_2
+->
+	`addWidg‘
+(
+bu‰ÚUTS¹Stİ
+);
+
+140 
+hÜizÚlS·ûr_4
+ = 
+Ãw
+ 
+	`QS·ûrI‹m
+(40, 20, 
+QSizePŞicy
+::
+Ex·ndšg
+, QSizePŞicy::
+Mšimum
+);
+
+142 
+hÜizÚlLayout_2
+->
+	`addI‹m
+(
+hÜizÚlS·ûr_4
+);
+
+145 
+fÜmLayout_2
+->
+	`£tLayout
+(5, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+hÜizÚlLayout_2
+);
+
+147 
+checkBoxUTBidœeùiÚ®EÇbËd
+ = 
+Ãw
+ 
+	`QCheckBox
+(
+bUT
+);
+
+148 
+checkBoxUTBidœeùiÚ®EÇbËd
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("checkBoxUTBidirectionalEnabled"));
+
+149 
+checkBoxUTBidœeùiÚ®EÇbËd
+->
+	`£tChecked
+(
+Œue
+);
+
+151 
+fÜmLayout_2
+->
+	`£tWidg‘
+(4, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+checkBoxUTBidœeùiÚ®EÇbËd
+);
+
+153 
+bWidg‘
+->
+	`addTab
+(
+bUT
+, 
+	`QSŒšg
+());
+
+154 
+bTU
+ = 
+Ãw
+ 
+	`QWidg‘
+();
+
+155 
+bTU
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("tabTU"));
+
+156 
+fÜmLayout_4
+ = 
+Ãw
+ 
+	`QFÜmLayout
+(
+bTU
+);
+
+157 
+fÜmLayout_4
+->
+	`£tS·cšg
+(6);
+
+158 
+fÜmLayout_4
+->
+	`£tCÚ‹ÁsM¬gšs
+(11, 11, 11, 11);
+
+159 
+fÜmLayout_4
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("formLayout_4"));
+
+160 
+fÜmLayout_4
+->
+	`£tF›ldGrowthPŞicy
+(
+QFÜmLayout
+::
+AÎNÚFixedF›ldsGrow
+);
+
+161 
+fÜmLayout_3
+ = 
+Ãw
+ 
+	`QFÜmLayout
+();
+
+162 
+fÜmLayout_3
+->
+	`£tS·cšg
+(6);
+
+163 
+fÜmLayout_3
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("formLayout_3"));
+
+165 
+fÜmLayout_4
+->
+	`£tLayout
+(0, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+fÜmLayout_3
+);
+
+167 
+Ïb–TıS”v”Add»ss
+ = 
+Ãw
+ 
+	`QLab–
+(
+bTU
+);
+
+168 
+Ïb–TıS”v”Add»ss
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("labelTcpServerAddress"));
+
+170 
+fÜmLayout_4
+->
+	`£tWidg‘
+(1, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+Ïb–TıS”v”Add»ss
+);
+
+172 
+lšeEd™TıS”v”Add»ss
+ = 
+Ãw
+ 
+	`QLšeEd™
+(
+bTU
+);
+
+173 
+lšeEd™TıS”v”Add»ss
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("lineEditTcpServerAddress"));
+
+175 
+fÜmLayout_4
+->
+	`£tWidg‘
+(1, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+lšeEd™TıS”v”Add»ss
+);
+
+177 
+Ïb–TıS”v”PÜt_2
+ = 
+Ãw
+ 
+	`QLab–
+(
+bTU
+);
+
+178 
+Ïb–TıS”v”PÜt_2
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("labelTcpServerPort_2"));
+
+180 
+fÜmLayout_4
+->
+	`£tWidg‘
+(2, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+Ïb–TıS”v”PÜt_2
+);
+
+182 
+¥šBoxTıCl›ÁPÜt
+ = 
+Ãw
+ 
+	`QSpšBox
+(
+bTU
+);
+
+183 
+¥šBoxTıCl›ÁPÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("spinBoxTcpClientPort"));
+
+184 
+¥šBoxTıCl›ÁPÜt
+->
+	`£tMšimum
+(1000);
+
+185 
+¥šBoxTıCl›ÁPÜt
+->
+	`£tMaximum
+(100000);
+
+186 
+¥šBoxTıCl›ÁPÜt
+->
+	`£tSšgËS‹p
+(10);
+
+187 
+¥šBoxTıCl›ÁPÜt
+->
+	`£tV®ue
+(60000);
+
+189 
+fÜmLayout_4
+->
+	`£tWidg‘
+(2, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+¥šBoxTıCl›ÁPÜt
+);
+
+191 
+Ïb–UdpBrßdÿ¡PÜt
+ = 
+Ãw
+ 
+	`QLab–
+(
+bTU
+);
+
+192 
+Ïb–UdpBrßdÿ¡PÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("labelUdpBroadcastPort"));
+
+194 
+fÜmLayout_4
+->
+	`£tWidg‘
+(3, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+Ïb–UdpBrßdÿ¡PÜt
+);
+
+196 
+¥šBoxUdpBrßdÿ¡PÜt
+ = 
+Ãw
+ 
+	`QSpšBox
+(
+bTU
+);
+
+197 
+¥šBoxUdpBrßdÿ¡PÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("spinBoxUdpBroadcastPort"));
+
+198 
+¥šBoxUdpBrßdÿ¡PÜt
+->
+	`£tMšimum
+(1000);
+
+199 
+¥šBoxUdpBrßdÿ¡PÜt
+->
+	`£tMaximum
+(100000);
+
+200 
+¥šBoxUdpBrßdÿ¡PÜt
+->
+	`£tSšgËS‹p
+(10);
+
+201 
+¥šBoxUdpBrßdÿ¡PÜt
+->
+	`£tV®ue
+(5670);
+
+203 
+fÜmLayout_4
+->
+	`£tWidg‘
+(3, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+¥šBoxUdpBrßdÿ¡PÜt
+);
+
+205 
+hÜizÚlLayout_3
+ = 
+Ãw
+ 
+	`QHBoxLayout
+();
+
+206 
+hÜizÚlLayout_3
+->
+	`£tS·cšg
+(6);
+
+207 
+hÜizÚlLayout_3
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("horizontalLayout_3"));
+
+208 
+bu‰ÚTUS¹Stİ
+ = 
+Ãw
+ 
+	`QPushBu‰Ú
+(
+bTU
+);
+
+209 
+bu‰ÚTUS¹Stİ
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("buttonTUStartStop"));
+
+211 
+hÜizÚlLayout_3
+->
+	`addWidg‘
+(
+bu‰ÚTUS¹Stİ
+);
+
+213 
+hÜizÚlS·ûr_3
+ = 
+Ãw
+ 
+	`QS·ûrI‹m
+(40, 20, 
+QSizePŞicy
+::
+Ex·ndšg
+, QSizePŞicy::
+Mšimum
+);
+
+215 
+hÜizÚlLayout_3
+->
+	`addI‹m
+(
+hÜizÚlS·ûr_3
+);
+
+218 
+fÜmLayout_4
+->
+	`£tLayout
+(5, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+hÜizÚlLayout_3
+);
+
+220 
+checkBoxTUBidœeùiÚ®EÇbËd
+ = 
+Ãw
+ 
+	`QCheckBox
+(
+bTU
+);
+
+221 
+checkBoxTUBidœeùiÚ®EÇbËd
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("checkBoxTUBidirectionalEnabled"));
+
+222 
+checkBoxTUBidœeùiÚ®EÇbËd
+->
+	`£tChecked
+(
+Œue
+);
+
+224 
+fÜmLayout_4
+->
+	`£tWidg‘
+(4, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+checkBoxTUBidœeùiÚ®EÇbËd
+);
+
+226 
+bWidg‘
+->
+	`addTab
+(
+bTU
+, 
+	`QSŒšg
+());
+
+228 
+v”tiÿlLayout_2
+->
+	`addWidg‘
+(
+bWidg‘
+);
+
+230 
+‹xtEd™Logg”
+ = 
+Ãw
+ 
+	`QTextEd™
+(
+ûÁ¿lWidg‘
+);
+
+231 
+‹xtEd™Logg”
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("textEditLogger"));
+
+232 
+‹xtEd™Logg”
+->
+	`£tUndoRedoEÇbËd
+(
+çl£
+);
+
+233 
+‹xtEd™Logg”
+->
+	`£tR—dOÆy
+(
+Œue
+);
+
+235 
+v”tiÿlLayout_2
+->
+	`addWidg‘
+(
+‹xtEd™Logg”
+);
+
+237 
+hÜizÚlLayout
+ = 
+Ãw
+ 
+	`QHBoxLayout
+();
+
+238 
+hÜizÚlLayout
+->
+	`£tS·cšg
+(6);
+
+239 
+hÜizÚlLayout
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("horizontalLayout"));
+
+240 
+hÜizÚlS·ûr
+ = 
+Ãw
+ 
+	`QS·ûrI‹m
+(40, 20, 
+QSizePŞicy
+::
+Ex·ndšg
+, QSizePŞicy::
+Mšimum
+);
+
+242 
+hÜizÚlLayout
+->
+	`addI‹m
+(
+hÜizÚlS·ûr
+);
+
+244 
+bu‰ÚCË¬Logg”
+ = 
+Ãw
+ 
+	`QPushBu‰Ú
+(
+ûÁ¿lWidg‘
+);
+
+245 
+bu‰ÚCË¬Logg”
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("buttonClearLogger"));
+
+247 
+hÜizÚlLayout
+->
+	`addWidg‘
+(
+bu‰ÚCË¬Logg”
+);
+
+250 
+v”tiÿlLayout_2
+->
+	`addLayout
+(
+hÜizÚlLayout
+);
+
+252 
+SNBGui
+->
+	`£tC’Œ®Widg‘
+(
+ûÁ¿lWidg‘
+);
+
+253 
+m’uB¬
+ = 
+Ãw
+ 
+	`QM’uB¬
+(
+SNBGui
+);
+
+254 
+m’uB¬
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("menuBar"));
+
+255 
+m’uB¬
+->
+	`£tGeom‘ry
+(
+	`QReù
+(0, 0, 801, 29));
+
+256 
+SNBGui
+->
+	`£tM’uB¬
+(
+m’uB¬
+);
+
+257 
+¡©usB¬
+ = 
+Ãw
+ 
+	`QStusB¬
+(
+SNBGui
+);
+
+258 
+¡©usB¬
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("statusBar"));
+
+259 
+SNBGui
+->
+	`£tStusB¬
+(
+¡©usB¬
+);
+
+260 
+QWidg‘
+::
+	`£tTabOrd”
+(
+bu‰ÚCË¬Logg”
+, 
+bWidg‘
+);
+
+261 
+QWidg‘
+::
+	`£tTabOrd”
+(
+bWidg‘
+, 
+¥šBoxUdpLi¡’PÜt
+);
+
+262 
+QWidg‘
+::
+	`£tTabOrd”
+(
+¥šBoxUdpLi¡’PÜt
+, 
+¥šBoxTıS”v”PÜt
+);
+
+263 
+QWidg‘
+::
+	`£tTabOrd”
+(
+¥šBoxTıS”v”PÜt
+, 
+checkBoxUTBidœeùiÚ®EÇbËd
+);
+
+264 
+QWidg‘
+::
+	`£tTabOrd”
+(
+checkBoxUTBidœeùiÚ®EÇbËd
+, 
+bu‰ÚUTS¹Stİ
+);
+
+265 
+QWidg‘
+::
+	`£tTabOrd”
+(
+bu‰ÚUTS¹Stİ
+, 
+lšeEd™TıS”v”Add»ss
+);
+
+266 
+QWidg‘
+::
+	`£tTabOrd”
+(
+lšeEd™TıS”v”Add»ss
+, 
+¥šBoxTıCl›ÁPÜt
+);
+
+267 
+QWidg‘
+::
+	`£tTabOrd”
+(
+¥šBoxTıCl›ÁPÜt
+, 
+¥šBoxUdpBrßdÿ¡PÜt
+);
+
+268 
+QWidg‘
+::
+	`£tTabOrd”
+(
+¥šBoxUdpBrßdÿ¡PÜt
+, 
+checkBoxTUBidœeùiÚ®EÇbËd
+);
+
+269 
+QWidg‘
+::
+	`£tTabOrd”
+(
+checkBoxTUBidœeùiÚ®EÇbËd
+, 
+bu‰ÚTUS¹Stİ
+);
+
+270 
+QWidg‘
+::
+	`£tTabOrd”
+(
+bu‰ÚTUS¹Stİ
+, 
+‹xtEd™Logg”
+);
+
+272 
+	`»Œª¦©eUi
+(
+SNBGui
+);
+
+274 
+bWidg‘
+->
+	`£tCu¼’tIndex
+(0);
+
+277 
+QM‘aObjeù
+::
+	`cÚÃùSlÙsByName
+(
+SNBGui
+);
+
+280 
+	$»Œª¦©eUi
+(
+QMašWšdow
+ *
+SNBGui
+)
+
+282 
+SNBGui
+->
+	`£tWšdowT™Ë
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "SNBGui", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+283 
+Ïb–UdpLi¡’PÜt
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "UDP Li¡’ PÜt:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+284 
+Ïb–TıS”v”PÜt
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "TCP S”v” PÜt:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+285 
+bu‰ÚUTS¹Stİ
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "S¹", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+286 
+checkBoxUTBidœeùiÚ®EÇbËd
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "BidœeùiÚ® communiÿtiÚ", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+287 
+bWidg‘
+->
+	`£tTabText
+ÑabWidg‘->
+	`šdexOf
+(
+bUT
+), 
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "UDPØTCP", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+288 
+Ïb–TıS”v”Add»ss
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "TCP S”v” Add»ss:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+289 
+lšeEd™TıS”v”Add»ss
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "127.0.0.1", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+290 
+Ïb–TıS”v”PÜt_2
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "TCP S”v” PÜt:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+291 
+Ïb–UdpBrßdÿ¡PÜt
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "UDP Brßdÿ¡ PÜt:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+292 
+bu‰ÚTUS¹Stİ
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "S¹", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+293 
+checkBoxTUBidœeùiÚ®EÇbËd
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "BidœeùiÚ® communiÿtiÚ", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+294 
+bWidg‘
+->
+	`£tTabText
+ÑabWidg‘->
+	`šdexOf
+(
+bTU
+), 
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "TCPØUDP", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+295 
+bu‰ÚCË¬Logg”
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBGui", "CË¬", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+296 
+	}
+}
+
+300 
+Çme¥aû
+ 
+	gUi
+ {
+
+301 şas 
+	cSNBGui
+: 
+public
+ 
+Ui_SNBGui
+ {};
+
+304 
+	gQT_END_NAMESPACE
+
+
+	@snbtests/main.cpp
+
+7 
+	~"¢b‹¡s.h
+"
+
+8 
+	~<QAµliÿtiÚ
+>
+
+10 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+12 
+QAµliÿtiÚ
+ 
+	`a
+(
+¬gc
+, 
+¬gv
+);
+
+13 
+SNBTe¡s
+ 
+w
+;
+
+14 
+w
+.
+	`show
+();
+
+16  
+a
+.
+	`exec
+();
+
+17 
+	}
+}
+
+	@snbtests/moc_snbtests.cpp
+
+10 
+	~"¢b‹¡s.h
+"
+
+11 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+13 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 63
+
+19 
+QT_BEGIN_MOC_NAMESPACE
+
+
+20 cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_SNBTe¡s
+[] = {
+
+43 cÚ¡ 
+	gqt_m‘a_¡ršgd©a_SNBTe¡s
+[] = {
+
+51 
+	gSNBTe¡s
+::
+qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+53 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+54 
+Q_ASSERT
+(
+¡©icM‘aObjeù
+.
+ÿ¡
+(
+_o
+));
+
+55 
+SNBTe¡s
+ *
+	g_t
+ = 
+¡©ic_ÿ¡
+<SNBTe¡ *>(
+_o
+);
+
+56 
+	g_id
+) {
+
+57 0: 
+_t
+->
+upd©eLog
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1]))); ;
+
+58 1: 
+_t
+->
+»ûivedD©a
+((*
+»š‹½»t_ÿ¡
+< 
+QBy‹A¼ay
+(*)>(
+_a
+[1]))); ;
+
+59 2: 
+_t
+->
+Ú_¥šBoxLi¡’PÜt_v®ueChªged
+((*
+»š‹½»t_ÿ¡
+< (*)>(
+_a
+[1]))); ;
+
+60 3: 
+_t
+->
+Ú_bu‰ÚS’d_şicked
+(); ;
+
+61 4: 
+_t
+->
+Ú_bu‰ÚCË¬Logg”_şicked
+(); ;
+
+67 cÚ¡ 
+QM‘aObjeùExŒaD©a
+ 
+	gSNBTe¡s
+::
+¡©icM‘aObjeùExŒaD©a
+ = {
+
+68 0, 
+qt_¡©ic_m‘aÿÎ
+
+
+71 cÚ¡ 
+QM‘aObjeù
+ 
+	gSNBTe¡s
+::
+¡©icM‘aObjeù
+ = {
+
+72 { &
+QMašWšdow
+::
+¡©icM‘aObjeù
+, 
+qt_m‘a_¡ršgd©a_SNBTe¡s
+,
+
+73 
+qt_m‘a_d©a_SNBTe¡s
+, &
+¡©icM‘aObjeùExŒaD©a
+ }
+
+76 #ifdeà
+Q_NO_DATA_RELOCATION
+
+
+77 cÚ¡ 
+	gQM‘aObjeù
+ &
+	gSNBTe¡s
+::
+	$g‘SticM‘aObjeù
+(è{  
+¡©icM‘aObjeù
+; 
+	}
+}
+
+80 cÚ¡ 
+QM‘aObjeù
+ *
+	gSNBTe¡s
+::
+	$m‘aObjeù
+() const
+
+82  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->m‘aObjeù : &
+¡©icM‘aObjeù
+;
+
+83 
+	}
+}
+
+85 *
+	gSNBTe¡s
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_şÇme
+)
+
+87 ià(!
+_şÇme
+)  0;
+
+88 ià(!
+	`¡rcmp
+(
+_şÇme
+, 
+qt_m‘a_¡ršgd©a_SNBTe¡s
+))
+
+89  
+¡©ic_ÿ¡
+<*>(
+cÚ¡_ÿ¡
+< 
+SNBTe¡s
+*>(
+this
+));
+
+90  
+QMašWšdow
+::
+	`qt_m‘aÿ¡
+(
+_şÇme
+);
+
+91 
+	}
+}
+
+93 
+	gSNBTe¡s
+::
+qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+95 
+	g_id
+ = 
+QMašWšdow
+::
+qt_m‘aÿÎ
+(
+_c
+, 
+_id
+, 
+_a
+);
+
+96 ià(
+	g_id
+ < 0)
+
+97  
+	g_id
+;
+
+98 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+99 ià(
+_id
+ < 5)
+
+100 
+qt_¡©ic_m‘aÿÎ
+(
+this
+, 
+_c
+, 
+_id
+, 
+_a
+);
+
+101 
+	g_id
+ -= 5;
+
+103  
+	g_id
+;
+
+105 
+	gQT_END_MOC_NAMESPACE
+
+
+	@snbtests/snbtests.cpp
+
+7 
+	~"¢b‹¡s.h
+"
+
+8 
+	~"ui_¢b‹¡s.h
+"
+
+10 
+	gSNBTe¡s
+::
+	$SNBTe¡s
+(
+QWidg‘
+ *
+·»Á
+) :
+
+11 
+	`QMašWšdow
+(
+·»Á
+),
+
+12 
+	`ui
+(
+Ãw
+ 
+Ui
+::
+SNBTe¡s
+),
+
+13 
+	`udpLi¡’Cl›Á
+(0),
+
+14 
+	$¡¬‹d
+(0)
+
+16 
+ui
+->
+	`£tupUi
+(
+this
+);
+
+18 
+şas¢ame
+ = "SNBTest";
+
+20 
+QObjeù
+::
+	`cÚÃù
+(&
+logg”
+, 
+	`SIGNAL
+(
+	`logUpd©ed
+(
+QSŒšg
+)), 
+this
+, 
+	`SLOT
+(
+	`upd©eLog
+(QString)));
+
+22 
+logg”
+.
+	`£tMaxLšes
+(1000);
+
+23 
+logg”
+.
+	`addInfo
+(
+şas¢ame
+, "Started");
+
+26 
+	`Ú_¥šBoxLi¡’PÜt_v®ueChªged
+(0);
+
+27 
+	}
+}
+
+29 
+	gSNBTe¡s
+::~
+	$SNBTe¡s
+()
+
+31 
+d–‘e
+ 
+ui
+;
+
+32 
+	}
+}
+
+34 
+	gSNBTe¡s
+::
+	$upd©eLog
+(
+QSŒšg
+ 
+log
+)
+
+36 
+ui
+->
+‹xtEd™Logg”
+->
+	`£tHtml
+(
+log
+);
+
+37 
+	}
+}
+
+39 
+	gSNBTe¡s
+::
+	$»ûivedD©a
+(
+QBy‹A¼ay
+ 
+d©a
+)
+
+41 
+logg”
+.
+	`addInfo
+("DATA", 
+	`QSŒšg
+(
+d©a
+));
+
+42 
+	}
+}
+
+44 
+	gSNBTe¡s
+::
+	$Ú_¥šBoxLi¡’PÜt_v®ueChªged
+(
+¬g1
+)
+
+46 
+	`Q_UNUSED
+(
+¬g1
+);
+
+47 if(
+udpLi¡’Cl›Á
+)
+
+49 
+udpLi¡’Cl›Á
+->
+	`discÚÃù
+();
+
+50 
+udpLi¡’Cl›Á
+->
+	`d–‘eL©”
+();
+
+54 
+udpLi¡’Cl›Á
+ = 
+Ãw
+ 
+	`UDPCl›Á
+();
+
+55 
+QObjeù
+::
+	`cÚÃù
+(
+udpLi¡’Cl›Á
+, 
+	`SIGNAL
+(
+	`d©aReûived
+(
+QBy‹A¼ay
+)), 
+this
+, 
+	`SLOT
+(
+	`»ûivedD©a
+(QByteArray)));
+
+58 
+QObjeù
+::
+	`cÚÃù
+(
+udpLi¡’Cl›Á
+, 
+	`SIGNAL
+(
+	`šfo
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addInfo
+(QString,QString)));
+
+59 
+QObjeù
+::
+	`cÚÃù
+(
+udpLi¡’Cl›Á
+, 
+	`SIGNAL
+(
+	`w¬nšg
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addW¬nšg
+(QString,QString)));
+
+60 
+QObjeù
+::
+	`cÚÃù
+(
+udpLi¡’Cl›Á
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addE¼Ü
+(QString,QString)));
+
+62 ià(!
+udpLi¡’Cl›Á
+->
+	`cÚÃù
+(
+ui
+->
+¥šBoxLi¡’PÜt
+->
+	`v®ue
+()))
+
+63 
+logg”
+.
+	`addE¼Ü
+(
+şas¢ame
+, "UDP client failedo start");
+
+64 
+	}
+}
+
+66 
+	gSNBTe¡s
+::
+	$Ú_bu‰ÚS’d_şicked
+()
+
+69 
+UDPCl›Á
+ *
+udpS’dCl›Á
+ = 
+Ãw
+ 
+	`UDPCl›Á
+();
+
+71 
+QObjeù
+::
+	`cÚÃù
+(
+udpS’dCl›Á
+, 
+	`SIGNAL
+(
+	`šfo
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addInfo
+(QString,QString)));
+
+72 
+QObjeù
+::
+	`cÚÃù
+(
+udpS’dCl›Á
+, 
+	`SIGNAL
+(
+	`w¬nšg
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addW¬nšg
+(QString,QString)));
+
+73 
+QObjeù
+::
+	`cÚÃù
+(
+udpS’dCl›Á
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QSŒšg
+,QSŒšg)), &
+logg”
+, 
+	`SLOT
+(
+	`addE¼Ü
+(QString,QString)));
+
+75 ià(!
+udpS’dCl›Á
+->
+	`cÚÃù
+(
+ui
+->
+¥šBoxBrßdÿ¡PÜt
+->
+	`v®ue
+()))
+
+76 
+logg”
+.
+	`addE¼Ü
+(
+şas¢ame
+, "UDP client failedo start");
+
+79 
+udpS’dCl›Á
+->
+	`£ndD©a
+(
+ui
+->
+lšeEd™
+->
+	`‹xt
+().
+	`toAscii
+());
+
+82 
+udpS’dCl›Á
+->
+	`discÚÃù
+();
+
+83 
+udpS’dCl›Á
+->
+	`d–‘eL©”
+();
+
+84 
+	}
+}
+
+86 
+	gSNBTe¡s
+::
+	$Ú_bu‰ÚCË¬Logg”_şicked
+()
+
+88 
+logg”
+.
+	`ş—r
+();
+
+89 
+	}
+}
+
+	@snbtests/snbtests.h
+
+7 #iâdeà
+SNBTESTS_H
+
+
+8 
+	#SNBTESTS_H
+
+
+	)
+
+10 
+	~<QMašWšdow
+>
+
+11 
+	~<QSŒšg
+>
+
+13 
+	~"htmÎogg”.h
+"
+
+14 
+	~"udpş›Á.h
+"
+
+16 
+Çme¥aû
+ 
+	gUi
+ {
+
+17 
+şass
+ 
+	gSNBTe¡s
+;
+
+20 şas 
+	cSNBTe¡s
+ : 
+public
+ 
+QMašWšdow
+
+
+22 
+Q_OBJECT
+
+
+24 
+public
+:
+
+25 
+ex¶ic™
+ 
+SNBTe¡s
+(
+QWidg‘
+ *
+·»Á
+ = 0);
+
+26 ~
+SNBTe¡s
+();
+
+28 
+´iv©e
+ 
+	m¦Ùs
+:
+
+29 
+upd©eLog
+(
+QSŒšg
+ 
+log
+);
+
+30 
+»ûivedD©a
+(
+QBy‹A¼ay
+ 
+d©a
+);
+
+32 
+Ú_¥šBoxLi¡’PÜt_v®ueChªged
+(
+¬g1
+);
+
+33 
+Ú_bu‰ÚS’d_şicked
+();
+
+35 
+Ú_bu‰ÚCË¬Logg”_şicked
+();
+
+37 
+	m´iv©e
+:
+
+38 
+Ui
+::
+SNBTe¡s
+ *
+ui
+;
+
+39 
+HTMLLogg”
+ 
+	mlogg”
+;
+
+41 
+UDPCl›Á
+ *
+	mudpLi¡’Cl›Á
+;
+
+43 
+boŞ
+ 
+	m¡¬‹d
+;
+
+45 
+QSŒšg
+ 
+	mşas¢ame
+;
+
+	@snbtests/ui_snbtests.h
+
+10 #iâdeà
+UI_SNBTESTS_H
+
+
+11 
+	#UI_SNBTESTS_H
+
+
+	)
+
+13 
+	~<QtCÜe/QV¬ŸÁ
+>
+
+14 
+	~<QtGui/QAùiÚ
+>
+
+15 
+	~<QtGui/QAµliÿtiÚ
+>
+
+16 
+	~<QtGui/QBu‰ÚGroup
+>
+
+17 
+	~<QtGui/QFÜmLayout
+>
+
+18 
+	~<QtGui/QHBoxLayout
+>
+
+19 
+	~<QtGui/QH—d”V›w
+>
+
+20 
+	~<QtGui/QLab–
+>
+
+21 
+	~<QtGui/QLšeEd™
+>
+
+22 
+	~<QtGui/QMašWšdow
+>
+
+23 
+	~<QtGui/QM’uB¬
+>
+
+24 
+	~<QtGui/QPushBu‰Ú
+>
+
+25 
+	~<QtGui/QS·ûrI‹m
+>
+
+26 
+	~<QtGui/QSpšBox
+>
+
+27 
+	~<QtGui/QStusB¬
+>
+
+28 
+	~<QtGui/QTextEd™
+>
+
+29 
+	~<QtGui/QVBoxLayout
+>
+
+30 
+	~<QtGui/QWidg‘
+>
+
+32 
+QT_BEGIN_NAMESPACE
+
+
+34 şas 
+	cUi_SNBTe¡s
+
+
+36 
+	mpublic
+:
+
+37 
+QWidg‘
+ *
+ûÁ¿lWidg‘
+;
+
+38 
+QVBoxLayout
+ *
+	mv”tiÿlLayout_2
+;
+
+39 
+QVBoxLayout
+ *
+	mv”tiÿlLayout
+;
+
+40 
+QFÜmLayout
+ *
+	mfÜmLayout
+;
+
+41 
+QLab–
+ *
+	mÏb–_2
+;
+
+42 
+QSpšBox
+ *
+	m¥šBoxBrßdÿ¡PÜt
+;
+
+43 
+QLab–
+ *
+	mÏb–
+;
+
+44 
+QSpšBox
+ *
+	m¥šBoxLi¡’PÜt
+;
+
+45 
+QHBoxLayout
+ *
+	mhÜizÚlLayout
+;
+
+46 
+QPushBu‰Ú
+ *
+	mbu‰ÚS’d
+;
+
+47 
+QS·ûrI‹m
+ *
+	mhÜizÚlS·ûr
+;
+
+48 
+QLšeEd™
+ *
+	mlšeEd™
+;
+
+49 
+QLab–
+ *
+	mÏb–_3
+;
+
+50 
+QTextEd™
+ *
+	m‹xtEd™Logg”
+;
+
+51 
+QHBoxLayout
+ *
+	mhÜizÚlLayout_2
+;
+
+52 
+QS·ûrI‹m
+ *
+	mhÜizÚlS·ûr_2
+;
+
+53 
+QPushBu‰Ú
+ *
+	mbu‰ÚCË¬Logg”
+;
+
+54 
+QM’uB¬
+ *
+	mm’uB¬
+;
+
+55 
+QStusB¬
+ *
+	m¡©usB¬
+;
+
+57 
+	$£tupUi
+(
+QMašWšdow
+ *
+SNBTe¡s
+)
+
+59 ià(
+SNBTe¡s
+->
+	`objeùName
+().
+	`isEm±y
+())
+
+60 
+SNBTe¡s
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("SNBTests"));
+
+61 
+SNBTe¡s
+->
+	`»size
+(400, 357);
+
+62 
+ûÁ¿lWidg‘
+ = 
+Ãw
+ 
+	`QWidg‘
+(
+SNBTe¡s
+);
+
+63 
+ûÁ¿lWidg‘
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("centralWidget"));
+
+64 
+v”tiÿlLayout_2
+ = 
+Ãw
+ 
+	`QVBoxLayout
+(
+ûÁ¿lWidg‘
+);
+
+65 
+v”tiÿlLayout_2
+->
+	`£tS·cšg
+(6);
+
+66 
+v”tiÿlLayout_2
+->
+	`£tCÚ‹ÁsM¬gšs
+(11, 11, 11, 11);
+
+67 
+v”tiÿlLayout_2
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("verticalLayout_2"));
+
+68 
+v”tiÿlLayout
+ = 
+Ãw
+ 
+	`QVBoxLayout
+();
+
+69 
+v”tiÿlLayout
+->
+	`£tS·cšg
+(6);
+
+70 
+v”tiÿlLayout
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("verticalLayout"));
+
+71 
+fÜmLayout
+ = 
+Ãw
+ 
+	`QFÜmLayout
+();
+
+72 
+fÜmLayout
+->
+	`£tS·cšg
+(6);
+
+73 
+fÜmLayout
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("formLayout"));
+
+74 
+fÜmLayout
+->
+	`£tF›ldGrowthPŞicy
+(
+QFÜmLayout
+::
+AÎNÚFixedF›ldsGrow
+);
+
+75 
+Ïb–_2
+ = 
+Ãw
+ 
+	`QLab–
+(
+ûÁ¿lWidg‘
+);
+
+76 
+Ïb–_2
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("label_2"));
+
+78 
+fÜmLayout
+->
+	`£tWidg‘
+(0, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+Ïb–_2
+);
+
+80 
+¥šBoxBrßdÿ¡PÜt
+ = 
+Ãw
+ 
+	`QSpšBox
+(
+ûÁ¿lWidg‘
+);
+
+81 
+¥šBoxBrßdÿ¡PÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("spinBoxBroadcastPort"));
+
+82 
+¥šBoxBrßdÿ¡PÜt
+->
+	`£tMšimum
+(1000);
+
+83 
+¥šBoxBrßdÿ¡PÜt
+->
+	`£tMaximum
+(100000);
+
+84 
+¥šBoxBrßdÿ¡PÜt
+->
+	`£tSšgËS‹p
+(10);
+
+85 
+¥šBoxBrßdÿ¡PÜt
+->
+	`£tV®ue
+(5670);
+
+87 
+fÜmLayout
+->
+	`£tWidg‘
+(0, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+¥šBoxBrßdÿ¡PÜt
+);
+
+89 
+Ïb–
+ = 
+Ãw
+ 
+	`QLab–
+(
+ûÁ¿lWidg‘
+);
+
+90 
+Ïb–
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("label"));
+
+92 
+fÜmLayout
+->
+	`£tWidg‘
+(1, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+Ïb–
+);
+
+94 
+¥šBoxLi¡’PÜt
+ = 
+Ãw
+ 
+	`QSpšBox
+(
+ûÁ¿lWidg‘
+);
+
+95 
+¥šBoxLi¡’PÜt
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("spinBoxListenPort"));
+
+96 
+¥šBoxLi¡’PÜt
+->
+	`£tMšimum
+(1000);
+
+97 
+¥šBoxLi¡’PÜt
+->
+	`£tMaximum
+(100000);
+
+98 
+¥šBoxLi¡’PÜt
+->
+	`£tSšgËS‹p
+(10);
+
+99 
+¥šBoxLi¡’PÜt
+->
+	`£tV®ue
+(5670);
+
+101 
+fÜmLayout
+->
+	`£tWidg‘
+(1, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+¥šBoxLi¡’PÜt
+);
+
+103 
+hÜizÚlLayout
+ = 
+Ãw
+ 
+	`QHBoxLayout
+();
+
+104 
+hÜizÚlLayout
+->
+	`£tS·cšg
+(6);
+
+105 
+hÜizÚlLayout
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("horizontalLayout"));
+
+106 
+bu‰ÚS’d
+ = 
+Ãw
+ 
+	`QPushBu‰Ú
+(
+ûÁ¿lWidg‘
+);
+
+107 
+bu‰ÚS’d
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("buttonSend"));
+
+109 
+hÜizÚlLayout
+->
+	`addWidg‘
+(
+bu‰ÚS’d
+);
+
+111 
+hÜizÚlS·ûr
+ = 
+Ãw
+ 
+	`QS·ûrI‹m
+(40, 20, 
+QSizePŞicy
+::
+Ex·ndšg
+, QSizePŞicy::
+Mšimum
+);
+
+113 
+hÜizÚlLayout
+->
+	`addI‹m
+(
+hÜizÚlS·ûr
+);
+
+116 
+fÜmLayout
+->
+	`£tLayout
+(3, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+hÜizÚlLayout
+);
+
+118 
+lšeEd™
+ = 
+Ãw
+ 
+	`QLšeEd™
+(
+ûÁ¿lWidg‘
+);
+
+119 
+lšeEd™
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("lineEdit"));
+
+121 
+fÜmLayout
+->
+	`£tWidg‘
+(2, 
+QFÜmLayout
+::
+F›ldRŞe
+, 
+lšeEd™
+);
+
+123 
+Ïb–_3
+ = 
+Ãw
+ 
+	`QLab–
+(
+ûÁ¿lWidg‘
+);
+
+124 
+Ïb–_3
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("label_3"));
+
+126 
+fÜmLayout
+->
+	`£tWidg‘
+(2, 
+QFÜmLayout
+::
+Lab–RŞe
+, 
+Ïb–_3
+);
+
+129 
+v”tiÿlLayout
+->
+	`addLayout
+(
+fÜmLayout
+);
+
+131 
+‹xtEd™Logg”
+ = 
+Ãw
+ 
+	`QTextEd™
+(
+ûÁ¿lWidg‘
+);
+
+132 
+‹xtEd™Logg”
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("textEditLogger"));
+
+133 
+QSizePŞicy
+ 
+	`sizePŞicy
+(QSizePŞicy::
+Ex·ndšg
+, QSizePolicy::Expanding);
+
+134 
+sizePŞicy
+.
+	`£tHÜizÚlSŒ‘ch
+(0);
+
+135 
+sizePŞicy
+.
+	`£tV”tiÿlSŒ‘ch
+(0);
+
+136 
+sizePŞicy
+.
+	`£tHeightFÜWidth
+(
+‹xtEd™Logg”
+->
+	`sizePŞicy
+().
+	`hasHeightFÜWidth
+());
+
+137 
+‹xtEd™Logg”
+->
+	`£tSizePŞicy
+(
+sizePŞicy
+);
+
+138 
+‹xtEd™Logg”
+->
+	`£tUndoRedoEÇbËd
+(
+çl£
+);
+
+139 
+‹xtEd™Logg”
+->
+	`£tR—dOÆy
+(
+Œue
+);
+
+141 
+v”tiÿlLayout
+->
+	`addWidg‘
+(
+‹xtEd™Logg”
+);
+
+143 
+hÜizÚlLayout_2
+ = 
+Ãw
+ 
+	`QHBoxLayout
+();
+
+144 
+hÜizÚlLayout_2
+->
+	`£tS·cšg
+(6);
+
+145 
+hÜizÚlLayout_2
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("horizontalLayout_2"));
+
+146 
+hÜizÚlS·ûr_2
+ = 
+Ãw
+ 
+	`QS·ûrI‹m
+(40, 20, 
+QSizePŞicy
+::
+Ex·ndšg
+, QSizePŞicy::
+Mšimum
+);
+
+148 
+hÜizÚlLayout_2
+->
+	`addI‹m
+(
+hÜizÚlS·ûr_2
+);
+
+150 
+bu‰ÚCË¬Logg”
+ = 
+Ãw
+ 
+	`QPushBu‰Ú
+(
+ûÁ¿lWidg‘
+);
+
+151 
+bu‰ÚCË¬Logg”
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("buttonClearLogger"));
+
+153 
+hÜizÚlLayout_2
+->
+	`addWidg‘
+(
+bu‰ÚCË¬Logg”
+);
+
+156 
+v”tiÿlLayout
+->
+	`addLayout
+(
+hÜizÚlLayout_2
+);
+
+159 
+v”tiÿlLayout_2
+->
+	`addLayout
+(
+v”tiÿlLayout
+);
+
+161 
+SNBTe¡s
+->
+	`£tC’Œ®Widg‘
+(
+ûÁ¿lWidg‘
+);
+
+162 
+m’uB¬
+ = 
+Ãw
+ 
+	`QM’uB¬
+(
+SNBTe¡s
+);
+
+163 
+m’uB¬
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("menuBar"));
+
+164 
+m’uB¬
+->
+	`£tGeom‘ry
+(
+	`QReù
+(0, 0, 400, 29));
+
+165 
+SNBTe¡s
+->
+	`£tM’uB¬
+(
+m’uB¬
+);
+
+166 
+¡©usB¬
+ = 
+Ãw
+ 
+	`QStusB¬
+(
+SNBTe¡s
+);
+
+167 
+¡©usB¬
+->
+	`£tObjeùName
+(
+QSŒšg
+::
+	`äomUtf8
+("statusBar"));
+
+168 
+SNBTe¡s
+->
+	`£tStusB¬
+(
+¡©usB¬
+);
+
+169 
+QWidg‘
+::
+	`£tTabOrd”
+(
+¥šBoxBrßdÿ¡PÜt
+, 
+¥šBoxLi¡’PÜt
+);
+
+170 
+QWidg‘
+::
+	`£tTabOrd”
+(
+¥šBoxLi¡’PÜt
+, 
+lšeEd™
+);
+
+171 
+QWidg‘
+::
+	`£tTabOrd”
+(
+lšeEd™
+, 
+bu‰ÚS’d
+);
+
+172 
+QWidg‘
+::
+	`£tTabOrd”
+(
+bu‰ÚS’d
+, 
+bu‰ÚCË¬Logg”
+);
+
+173 
+QWidg‘
+::
+	`£tTabOrd”
+(
+bu‰ÚCË¬Logg”
+, 
+‹xtEd™Logg”
+);
+
+175 
+	`»Œª¦©eUi
+(
+SNBTe¡s
+);
+
+177 
+QM‘aObjeù
+::
+	`cÚÃùSlÙsByName
+(
+SNBTe¡s
+);
+
+180 
+	$»Œª¦©eUi
+(
+QMašWšdow
+ *
+SNBTe¡s
+)
+
+182 
+SNBTe¡s
+->
+	`£tWšdowT™Ë
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBTe¡s", "SNBTe¡s", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+183 
+Ïb–_2
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBTe¡s", "UDP Brßdÿ¡ PÜt:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+184 
+Ïb–
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBTe¡s", "UDP Li¡’ PÜt:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+185 
+bu‰ÚS’d
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBTe¡s", "S’d", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+186 
+lšeEd™
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBTe¡s", "exam¶e", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+187 
+Ïb–_3
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBTe¡s", "S’d Mes§ge:", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+188 
+bu‰ÚCË¬Logg”
+->
+	`£tText
+(
+QAµliÿtiÚ
+::
+	`Œª¦©e
+("SNBTe¡s", "CË¬", 0, QAµliÿtiÚ::
+UnicodeUTF8
+));
+
+189 
+	}
+}
+
+193 
+Çme¥aû
+ 
+	gUi
+ {
+
+194 şas 
+	cSNBTe¡s
+: 
+public
+ 
+Ui_SNBTe¡s
+ {};
+
+197 
+	gQT_END_NAMESPACE
+
+
+	@tcpclient/moc_tcpclient.cpp
+
+10 
+	~"tış›Á.h
+"
+
+11 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+13 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 63
+
+19 
+QT_BEGIN_MOC_NAMESPACE
+
+
+20 cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_TCPCl›Á
+[] = {
+
+47 cÚ¡ 
+	gqt_m‘a_¡ršgd©a_TCPCl›Á
+[] = {
+
+56 
+	gTCPCl›Á
+::
+qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+58 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+59 
+Q_ASSERT
+(
+¡©icM‘aObjeù
+.
+ÿ¡
+(
+_o
+));
+
+60 
+TCPCl›Á
+ *
+	g_t
+ = 
+¡©ic_ÿ¡
+<TCPCl›Á *>(
+_o
+);
+
+61 
+	g_id
+) {
+
+62 0: 
+_t
+->
+d©aReûived
+((*
+»š‹½»t_ÿ¡
+< 
+QBy‹A¼ay
+(*)>(
+_a
+[1]))); ;
+
+63 1: 
+_t
+->
+šfo
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+64 2: 
+_t
+->
+w¬nšg
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+65 3: 
+_t
+->
+”rÜ
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+66 4: 
+_t
+->
+£ndD©a
+((*
+»š‹½»t_ÿ¡
+< cÚ¡ 
+QBy‹A¼ay
+(*)>(
+_a
+[1]))); ;
+
+67 5: 
+_t
+->
+»adD©a
+(); ;
+
+68 6: 
+_t
+->
+di¥ÏyE¼Ü
+((*
+»š‹½»t_ÿ¡
+< 
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+(*)>(
+_a
+[1]))); ;
+
+74 cÚ¡ 
+QM‘aObjeùExŒaD©a
+ 
+	gTCPCl›Á
+::
+¡©icM‘aObjeùExŒaD©a
+ = {
+
+75 0, 
+qt_¡©ic_m‘aÿÎ
+
+
+78 cÚ¡ 
+QM‘aObjeù
+ 
+	gTCPCl›Á
+::
+¡©icM‘aObjeù
+ = {
+
+79 { &
+QObjeù
+::
+¡©icM‘aObjeù
+, 
+qt_m‘a_¡ršgd©a_TCPCl›Á
+,
+
+80 
+qt_m‘a_d©a_TCPCl›Á
+, &
+¡©icM‘aObjeùExŒaD©a
+ }
+
+83 #ifdeà
+Q_NO_DATA_RELOCATION
+
+
+84 cÚ¡ 
+	gQM‘aObjeù
+ &
+	gTCPCl›Á
+::
+	$g‘SticM‘aObjeù
+(è{  
+¡©icM‘aObjeù
+; 
+	}
+}
+
+87 cÚ¡ 
+QM‘aObjeù
+ *
+	gTCPCl›Á
+::
+	$m‘aObjeù
+() const
+
+89  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->m‘aObjeù : &
+¡©icM‘aObjeù
+;
+
+90 
+	}
+}
+
+92 *
+	gTCPCl›Á
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_şÇme
+)
+
+94 ià(!
+_şÇme
+)  0;
+
+95 ià(!
+	`¡rcmp
+(
+_şÇme
+, 
+qt_m‘a_¡ršgd©a_TCPCl›Á
+))
+
+96  
+¡©ic_ÿ¡
+<*>(
+cÚ¡_ÿ¡
+< 
+TCPCl›Á
+*>(
+this
+));
+
+97  
+QObjeù
+::
+	`qt_m‘aÿ¡
+(
+_şÇme
+);
+
+98 
+	}
+}
+
+100 
+	gTCPCl›Á
+::
+qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+102 
+	g_id
+ = 
+QObjeù
+::
+qt_m‘aÿÎ
+(
+_c
+, 
+_id
+, 
+_a
+);
+
+103 ià(
+	g_id
+ < 0)
+
+104  
+	g_id
+;
+
+105 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+106 ià(
+_id
+ < 7)
+
+107 
+qt_¡©ic_m‘aÿÎ
+(
+this
+, 
+_c
+, 
+_id
+, 
+_a
+);
+
+108 
+	g_id
+ -= 7;
+
+110  
+	g_id
+;
+
+114 
+	gTCPCl›Á
+::
+	$d©aReûived
+(
+QBy‹A¼ay
+ 
+_t1
+)
+
+116 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)) };
+
+117 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 0, 
+_a
+);
+
+118 
+	}
+}
+
+121 
+	gTCPCl›Á
+::
+	$šfo
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+123 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+124 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 1, 
+_a
+);
+
+125 
+	}
+}
+
+128 
+	gTCPCl›Á
+::
+	$w¬nšg
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+130 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+131 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 2, 
+_a
+);
+
+132 
+	}
+}
+
+135 
+	gTCPCl›Á
+::
+	$”rÜ
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+137 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+138 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 3, 
+_a
+);
+
+139 
+	}
+}
+
+140 
+	gQT_END_MOC_NAMESPACE
+
+
+	@tcpclient/tcpclient.cpp
+
+7 
+	~<QtN‘wÜk
+>
+
+9 
+	~"tış›Á.h
+"
+
+11 
+šlše
+ 
+qšt16
+ 
+A¼ayToIÁ
+(
+QBy‹A¼ay
+ 
+sourû
+);
+
+12 
+šlše
+ 
+QBy‹A¼ay
+ 
+IÁToA¼ay
+(
+qšt16
+ 
+sourû
+);
+
+15 
+	gTCPCl›Á
+::
+	$TCPCl›Á
+(
+QObjeù
+ *
+·»Á
+)
+
+16 : 
+	`QObjeù
+(
+·»Á
+), 
+	$tıSock‘
+(0)
+
+18 
+şas¢ame
+ = "TCPClient";
+
+19 
+	}
+}
+
+22 
+boŞ
+ 
+	gTCPCl›Á
+::
+	$cÚÃù
+(
+QTıSock‘
+ *
+sock‘
+)
+
+25 if(
+tıSock‘
+)
+
+26  
+çl£
+;
+
+28 
+tıSock‘
+ = 
+sock‘
+;
+
+30 
+QObjeù
+::
+	`cÚÃù
+(
+tıSock‘
+, 
+	`SIGNAL
+(
+	`»adyR—d
+()), 
+this
+, 
+	`SLOT
+(
+	`»adD©a
+()));
+
+31 
+QObjeù
+::
+	`cÚÃù
+(
+tıSock‘
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+)), 
+this
+, 
+	`SLOT
+(
+	`di¥ÏyE¼Ü
+(QAbstractSocket::SocketError)));
+
+34 
+blockSize
+ = 0;
+
+35 
+bufãr
+ = 
+Ãw
+ 
+	`QBy‹A¼ay
+();
+
+36 
+bufãr
+->
+	`ş—r
+();
+
+38 
+ş›ÁCÚÃùiÚ
+ = 
+çl£
+;
+
+40  
+Œue
+;
+
+41 
+	}
+}
+
+43 
+boŞ
+ 
+	gTCPCl›Á
+::
+	$cÚÃù
+(cÚ¡ 
+QSŒšg
+ &
+ho¡
+, cÚ¡ 
+qšt64
+ &
+pÜt
+)
+
+46 if(
+tıSock‘
+)
+
+47  
+çl£
+;
+
+50 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "cÚÃùiÚØ" + 
+ho¡
+ + ":" + 
+QSŒšg
+::
+	`numb”
+(
+pÜt
+));
+
+51 
+this
+->
+ho¡
+ = host;
+
+52 
+this
+->
+pÜt
+ =…ort;
+
+54 
+tıSock‘
+ = 
+Ãw
+ 
+	`QTıSock‘
+(
+this
+);
+
+57 
+QObjeù
+::
+	`cÚÃù
+(
+tıSock‘
+, 
+	`SIGNAL
+(
+	`»adyR—d
+()), 
+this
+, 
+	`SLOT
+(
+	`»adD©a
+()));
+
+58 
+QObjeù
+::
+	`cÚÃù
+(
+tıSock‘
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+)), 
+this
+, 
+	`SLOT
+(
+	`di¥ÏyE¼Ü
+(QAbstractSocket::SocketError)));
+
+61 
+blockSize
+ = 0;
+
+62 
+bufãr
+ = 
+Ãw
+ 
+	`QBy‹A¼ay
+();
+
+63 
+bufãr
+->
+	`ş—r
+();
+
+65 
+tıSock‘
+->
+	`cÚÃùToHo¡
+(
+ho¡
+, 
+pÜt
+);
+
+67 
+ş›ÁCÚÃùiÚ
+ = 
+Œue
+;
+
+69  
+Œue
+;
+
+70 
+	}
+}
+
+72 
+	gTCPCl›Á
+::
+	$discÚÃù
+()
+
+74 
+em™
+ 
+	`w¬nšg
+(
+şas¢ame
+, "disconnected");
+
+77 ià(
+ş›ÁCÚÃùiÚ
+)
+
+78 
+tıSock‘
+->
+	`discÚÃùFromHo¡
+();
+
+81 
+tıSock‘
+ = 0;
+
+82 
+blockSize
+ = 0;
+
+83 
+bufãr
+->
+	`ş—r
+();
+
+84 
+	}
+}
+
+86 
+	gTCPCl›Á
+::
+	$£ndD©a
+(cÚ¡ 
+QBy‹A¼ay
+ &
+d©a
+)
+
+88 ià(!
+tıSock‘
+)
+
+92 
+QBy‹A¼ay
+ 
+mes§ge
+;
+
+93 
+mes§ge
+.
+	`­³nd
+("TNO");
+
+94 
+mes§ge
+.
+	`­³nd
+(
+	`IÁToA¼ay
+((
+qušt16
+è
+d©a
+.
+	`size
+()));
+
+95 
+mes§ge
+.
+	`­³nd
+(
+d©a
+);
+
+98 
+tıSock‘
+->
+	`wr™e
+(
+mes§ge
+);
+
+99 ià(!
+tıSock‘
+->
+	`æush
+())
+
+100 
+em™
+ 
+	`w¬nšg
+(
+şas¢ame
+, "TCP client socket flush failed");
+
+102 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "£nd d©a: " + 
+	`QSŒšg
+(
+d©a
+));
+
+103 
+	}
+}
+
+105 
+	gTCPCl›Á
+::
+	$»adD©a
+()
+
+107 
+QBy‹A¼ay
+ 
+h—d”
+ = "TNO";
+
+109 
+qšt16Size
+ = ()(
+qušt16
+);
+
+110 
+mšSize
+ = 
+h—d”
+.
+	`size
+(è+ 
+qšt16Size
+;
+
+112 
+tıSock‘
+->
+	`by‹sAvaabË
+() > 0)
+
+114 
+bufãr
+->
+	`­³nd
+(
+tıSock‘
+->
+	`»adAÎ
+());
+
+115 (
+blockSize
+ =ğ0 && 
+bufãr
+->
+	`size
+(è>ğ
+mšSize
+) || (blockSize > 0 && buffer->size() >= blockSize))
+
+118 ià(
+blockSize
+ =ğ0 && 
+bufãr
+->
+	`size
+(è>ğ
+mšSize
+)
+
+120 ià(!
+bufãr
+->
+	`¡¬tsW™h
+(
+h—d”
+))
+
+123 
+em™
+ 
+	`”rÜ
+(
+şas¢ame
+, "header corrupted");
+
+124 
+blockSize
+ = 0;
+
+125 
+bufãr
+->
+	`ş—r
+();
+
+129 
+blockSize
+ = 
+	`A¼ayToIÁ
+(
+bufãr
+->
+	`mid
+(
+h—d”
+.
+	`size
+(), 
+mšSize
+-1));
+
+131 
+bufãr
+->
+	`»move
+(0, 
+mšSize
+);
+
+135 ià(
+blockSize
+ > 0 && 
+bufãr
+->
+	`size
+() >= blockSize)
+
+137 
+QBy‹A¼ay
+ 
+d©a
+ = 
+bufãr
+->
+	`mid
+(0, 
+blockSize
+);
+
+138 
+bufãr
+->
+	`»move
+(0, 
+blockSize
+);
+
+139 
+blockSize
+ = 0;
+
+140 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "»ûived d©a: " + 
+	`QSŒšg
+(
+d©a
+));
+
+141 
+em™
+ 
+	`d©aReûived
+(
+d©a
+);
+
+145 
+	}
+}
+
+148 
+	gTCPCl›Á
+::
+di¥ÏyE¼Ü
+(
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+ 
+sock‘E¼Ü
+)
+
+150 
+QSŒšg
+ 
+mes§ge
+;
+
+151 
+	gsock‘E¼Ü
+) {
+
+152 
+	gQAb¡¿ùSock‘
+::
+RemÙeHo¡Clo£dE¼Ü
+:
+
+153 
+mes§ge
+ = "QAbstractSocket::RemoteHostClosedError";
+
+155 
+	gQAb¡¿ùSock‘
+::
+Ho¡NÙFoundE¼Ü
+:
+
+156 
+mes§ge
+ = "(QAbstractSocket::HostNotFoundError) Fortune Client. The host was‚ot found. Please checkhe host‚ame‡nd…ort settings.";
+
+158 
+	gQAb¡¿ùSock‘
+::
+CÚÃùiÚRefu£dE¼Ü
+:
+
+159 
+mes§ge
+ = "(QAbstractSocket::HostNotFoundError) The connection was„efused byhe…eer. Make surehe fortune server is„unning,‡nd checkhathe host‚ame‡nd…ort settings‡re correct.";
+
+162 
+mes§ge
+ = "(QAbstractSocket::default) The followingƒrror occured:bd";
+
+165 
+em™
+ 
+”rÜ
+(
+şas¢ame
+, 
+mes§ge
+);
+
+166 
+discÚÃù
+();
+
+169 
+qšt16
+ 
+	$A¼ayToIÁ
+(
+QBy‹A¼ay
+ 
+sourû
+)
+
+171 
+qšt16
+ 
+‹mp
+;
+
+172 
+QD©aSŒ—m
+ 
+	`d©a
+(&
+sourû
+, 
+QIODeviû
+::
+R—dWr™e
+);
+
+173 
+d©a
+ >> 
+‹mp
+;
+
+174  
+‹mp
+;
+
+175 
+	}
+}
+
+177 
+QBy‹A¼ay
+ 
+	$IÁToA¼ay
+(
+qšt16
+ 
+sourû
+)
+
+180 
+QBy‹A¼ay
+ 
+‹mp
+;
+
+181 
+QD©aSŒ—m
+ 
+	`d©a
+(&
+‹mp
+, 
+QIODeviû
+::
+R—dWr™e
+);
+
+182 
+d©a
+ << 
+sourû
+;
+
+183  
+‹mp
+;
+
+184 
+	}
+}
+
+	@tcpclient/tcpclient.h
+
+7 #iâdeà
+TCPCLIENT_H
+
+
+8 
+	#TCPCLIENT_H
+
+
+	)
+
+10 
+	~<QObjeù
+>
+
+11 
+	~<QSŒšg
+>
+
+12 
+	~<QBy‹A¼ay
+>
+
+13 
+	~<QTıSock‘
+>
+
+15 şas 
+	cTCPCl›Á
+ : 
+public
+ 
+QObjeù
+
+
+17 
+Q_OBJECT
+
+
+19 
+public
+:
+
+20 
+TCPCl›Á
+(
+QObjeù
+ *
+·»Á
+ = 0);
+
+22 
+boŞ
+ 
+cÚÃù
+(
+QTıSock‘
+ *
+sock‘
+);
+
+23 
+boŞ
+ 
+cÚÃù
+(cÚ¡ 
+QSŒšg
+ &
+ho¡
+, cÚ¡ 
+qšt64
+ &
+pÜt
+);
+
+24 
+discÚÃù
+();
+
+26 
+	msigÇls
+:
+
+27 
+d©aReûived
+(
+QBy‹A¼ay
+ 
+d©a
+);
+
+29 
+šfo
+(
+QSŒšg
+ 
+£nd”
+, QString info);
+
+30 
+w¬nšg
+(
+QSŒšg
+ 
+£nd”
+, QString warning);
+
+31 
+”rÜ
+(
+QSŒšg
+ 
+£nd”
+, QStringƒrror);
+
+33 
+public
+ 
+	m¦Ùs
+:
+
+34 
+£ndD©a
+(cÚ¡ 
+QBy‹A¼ay
+ &
+d©a
+);
+
+36 
+´iv©e
+ 
+	m¦Ùs
+:
+
+37 
+»adD©a
+();
+
+38 
+di¥ÏyE¼Ü
+(
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+ 
+sock‘E¼Ü
+);
+
+40 
+	m´iv©e
+:
+
+41 
+qšt64
+ 
+pÜt
+;
+
+42 
+QSŒšg
+ 
+	mho¡
+;
+
+43 
+boŞ
+ 
+	mş›ÁCÚÃùiÚ
+;
+
+44 
+QTıSock‘
+ *
+	mtıSock‘
+;
+
+46 
+QSŒšg
+ 
+	mşas¢ame
+;
+
+48 
+qušt16
+ 
+	mblockSize
+;
+
+49 
+QBy‹A¼ay
+ *
+	mbufãr
+;
+
+	@tcpserver/moc_tcpserver.cpp
+
+10 
+	~"tı£rv”.h
+"
+
+11 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+13 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 63
+
+19 
+QT_BEGIN_MOC_NAMESPACE
+
+
+20 cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_TCPS”v”
+[] = {
+
+52 cÚ¡ 
+	gqt_m‘a_¡ršgd©a_TCPS”v”
+[] = {
+
+65 
+	gTCPS”v”
+::
+qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+67 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+68 
+Q_ASSERT
+(
+¡©icM‘aObjeù
+.
+ÿ¡
+(
+_o
+));
+
+69 
+TCPS”v”
+ *
+	g_t
+ = 
+¡©ic_ÿ¡
+<TCPS”v” *>(
+_o
+);
+
+70 
+	g_id
+) {
+
+71 0: 
+_t
+->
+d©aReûived
+((*
+»š‹½»t_ÿ¡
+< 
+QBy‹A¼ay
+(*)>(
+_a
+[1]))); ;
+
+72 1: 
+_t
+->
+cÚÃùiÚCouÁ
+((*
+»š‹½»t_ÿ¡
+< (*)>(
+_a
+[1]))); ;
+
+73 2: 
+_t
+->
+šfo
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+74 3: 
+_t
+->
+w¬nšg
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+75 4: 
+_t
+->
+”rÜ
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+76 5: 
+_t
+->
+£ndD©a
+((*
+»š‹½»t_ÿ¡
+< cÚ¡ 
+QBy‹A¼ay
+(*)>(
+_a
+[1]))); ;
+
+77 6: 
+_t
+->
+ş›ÁD©aReûived
+((*
+»š‹½»t_ÿ¡
+< cÚ¡ 
+QBy‹A¼ay
+(*)>(
+_a
+[1]))); ;
+
+78 7: 
+_t
+->
+cÚÃùCl›Á
+(); ;
+
+79 8: 
+_t
+->
+discÚÃùCl›Á
+(); ;
+
+80 9: 
+_t
+->
+ş›ÁInfo
+((*
+»š‹½»t_ÿ¡
+< cÚ¡ 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); ;
+
+81 10: 
+_t
+->
+ş›ÁW¬nšg
+((*
+»š‹½»t_ÿ¡
+< cÚ¡ 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); ;
+
+82 11: 
+_t
+->
+ş›ÁE¼Ü
+((*
+»š‹½»t_ÿ¡
+< cÚ¡ 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); ;
+
+88 cÚ¡ 
+QM‘aObjeùExŒaD©a
+ 
+	gTCPS”v”
+::
+¡©icM‘aObjeùExŒaD©a
+ = {
+
+89 0, 
+qt_¡©ic_m‘aÿÎ
+
+
+92 cÚ¡ 
+QM‘aObjeù
+ 
+	gTCPS”v”
+::
+¡©icM‘aObjeù
+ = {
+
+93 { &
+QObjeù
+::
+¡©icM‘aObjeù
+, 
+qt_m‘a_¡ršgd©a_TCPS”v”
+,
+
+94 
+qt_m‘a_d©a_TCPS”v”
+, &
+¡©icM‘aObjeùExŒaD©a
+ }
+
+97 #ifdeà
+Q_NO_DATA_RELOCATION
+
+
+98 cÚ¡ 
+	gQM‘aObjeù
+ &
+	gTCPS”v”
+::
+	$g‘SticM‘aObjeù
+(è{  
+¡©icM‘aObjeù
+; 
+	}
+}
+
+101 cÚ¡ 
+QM‘aObjeù
+ *
+	gTCPS”v”
+::
+	$m‘aObjeù
+() const
+
+103  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->m‘aObjeù : &
+¡©icM‘aObjeù
+;
+
+104 
+	}
+}
+
+106 *
+	gTCPS”v”
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_şÇme
+)
+
+108 ià(!
+_şÇme
+)  0;
+
+109 ià(!
+	`¡rcmp
+(
+_şÇme
+, 
+qt_m‘a_¡ršgd©a_TCPS”v”
+))
+
+110  
+¡©ic_ÿ¡
+<*>(
+cÚ¡_ÿ¡
+< 
+TCPS”v”
+*>(
+this
+));
+
+111  
+QObjeù
+::
+	`qt_m‘aÿ¡
+(
+_şÇme
+);
+
+112 
+	}
+}
+
+114 
+	gTCPS”v”
+::
+qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+116 
+	g_id
+ = 
+QObjeù
+::
+qt_m‘aÿÎ
+(
+_c
+, 
+_id
+, 
+_a
+);
+
+117 ià(
+	g_id
+ < 0)
+
+118  
+	g_id
+;
+
+119 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+120 ià(
+_id
+ < 12)
+
+121 
+qt_¡©ic_m‘aÿÎ
+(
+this
+, 
+_c
+, 
+_id
+, 
+_a
+);
+
+122 
+	g_id
+ -= 12;
+
+124  
+	g_id
+;
+
+128 
+	gTCPS”v”
+::
+	$d©aReûived
+(
+QBy‹A¼ay
+ 
+_t1
+)
+
+130 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)) };
+
+131 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 0, 
+_a
+);
+
+132 
+	}
+}
+
+135 
+	gTCPS”v”
+::
+	$cÚÃùiÚCouÁ
+(
+_t1
+)
+
+137 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)) };
+
+138 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 1, 
+_a
+);
+
+139 
+	}
+}
+
+142 
+	gTCPS”v”
+::
+	$šfo
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+144 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+145 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 2, 
+_a
+);
+
+146 
+	}
+}
+
+149 
+	gTCPS”v”
+::
+	$w¬nšg
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+151 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+152 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 3, 
+_a
+);
+
+153 
+	}
+}
+
+156 
+	gTCPS”v”
+::
+	$”rÜ
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+158 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+159 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 4, 
+_a
+);
+
+160 
+	}
+}
+
+161 
+	gQT_END_MOC_NAMESPACE
+
+
+	@tcpserver/tcpserver.cpp
+
+7 
+	~<QBufãr
+>
+
+8 
+	~<QD©aSŒ—m
+>
+
+10 
+	~"tı£rv”.h
+"
+
+12 
+šlše
+ 
+QBy‹A¼ay
+ 
+IÁToA¼ay
+(
+qšt16
+ 
+sourû
+);
+
+14 
+	gTCPS”v”
+::
+	$TCPS”v”
+(
+QObjeù
+ *
+·»Á
+)
+
+15 : 
+	`QObjeù
+(
+·»Á
+), 
+	$£rv”
+(0)
+
+17 
+şas¢ame
+ = "TCPServer";
+
+18 
+	}
+}
+
+20 
+boŞ
+ 
+	gTCPS”v”
+::
+	$¡¬t
+(cÚ¡ 
+qušt16
+ &
+pÜt
+)
+
+22 if(
+£rv”
+)
+
+23  
+çl£
+;
+
+25 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "¡¬‹d‡ˆpÜˆ" + 
+QSŒšg
+::
+	`numb”
+(
+pÜt
+));
+
+27 
+£rv”
+ = 
+Ãw
+ 
+	`QTıS”v”
+(
+this
+);
+
+28 
+boŞ
+ 
+»suÉ1
+ = 
+QObjeù
+::
+	`cÚÃù
+(
+£rv”
+, 
+	`SIGNAL
+(
+	`ÃwCÚÃùiÚ
+()), 
+this
+, 
+	`SLOT
+(
+	`cÚÃùCl›Á
+()));
+
+29 
+boŞ
+ 
+»suÉ2
+ = 
+£rv”
+->
+	`li¡’
+(
+QHo¡Add»ss
+::
+Any
+, 
+pÜt
+);
+
+31 ià(!
+»suÉ1
+)
+
+32 
+em™
+ 
+	`”rÜ
+(
+şas¢ame
+, "TCP server could‚ot connect‚ewConnection");
+
+33 ià(!
+»suÉ2
+)
+
+34 
+em™
+ 
+	`”rÜ
+(
+şas¢ame
+, "TCP server failedo start†istening");
+
+36  (
+»suÉ1
+ && 
+»suÉ2
+);
+
+37 
+	}
+}
+
+39 
+	gTCPS”v”
+::
+	$¡İ
+()
+
+41 if(!
+£rv”
+)
+
+45 
+£rv”
+->
+	`şo£
+();
+
+46 
+£rv”
+->
+	`d–‘eL©”
+();
+
+47 
+£rv”
+ = 0;
+
+49 
+em™
+ 
+	`cÚÃùiÚCouÁ
+(
+sock‘M­
+.
+	`size
+());
+
+50 
+em™
+ 
+	`w¬nšg
+(
+şas¢ame
+, "stopped");
+
+51 
+	}
+}
+
+53 
+	gTCPS”v”
+::
+	$£ndD©a
+(cÚ¡ 
+QBy‹A¼ay
+ &
+d©a
+)
+
+55 ià(!
+£rv”
+)
+
+59 ià(
+sock‘M­
+.
+	`size
+() <= 0)
+
+63 
+QBy‹A¼ay
+ 
+mes§ge
+;
+
+64 
+mes§ge
+.
+	`­³nd
+("TNO");
+
+65 
+mes§ge
+.
+	`­³nd
+(
+	`IÁToA¼ay
+((
+qušt16
+è
+d©a
+.
+	`size
+()));
+
+66 
+mes§ge
+.
+	`­³nd
+(
+d©a
+);
+
+69 
+QM­
+<
+QTıSock‘
+ *, QTıSock‘ *>::
+™”©Ü
+ 
+ism
+;
+
+70 
+ism
+ = 
+sock‘M­
+.
+	`begš
+(); ism !ğsock‘M­.
+	`’d
+(); ++ism)
+
+72 
+QTıSock‘
+ *
+sock‘
+ = 
+ism
+.
+	`v®ue
+();
+
+74 
+sock‘M­
+[
+sock‘
+]->
+	`wr™e
+(
+mes§ge
+);
+
+75 ià(!
+sock‘M­
+[
+sock‘
+]->
+	`æush
+())
+
+76 
+em™
+ 
+	`w¬nšg
+(
+şas¢ame
+, "TCP server socket flush failed");
+
+79 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "£nd d©a: " + 
+	`QSŒšg
+(
+d©a
+));
+
+80 
+	}
+}
+
+82 
+	gTCPS”v”
+::
+	$ş›ÁD©aReûived
+(cÚ¡ 
+QBy‹A¼ay
+ &
+d©a
+)
+
+84 
+em™
+ 
+	`d©aReûived
+(
+d©a
+);
+
+85 
+	}
+}
+
+87 
+	gTCPS”v”
+::
+	$cÚÃùCl›Á
+()
+
+89 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "adding‚ew connection");
+
+92 
+£rv”
+->
+	`hasP’dšgCÚÃùiÚs
+())
+
+94 
+QTıSock‘
+ *
+sock‘
+ = 
+£rv”
+->
+	`ÃxtP’dšgCÚÃùiÚ
+();
+
+95 
+QObjeù
+::
+	`cÚÃù
+(
+sock‘
+, 
+	`SIGNAL
+(
+	`discÚÃùed
+()), 
+this
+, 
+	`SLOT
+(
+	`discÚÃùCl›Á
+()));
+
+97 
+sock‘M­
+[
+sock‘
+] = socket;
+
+99 
+TCPCl›Á
+ *
+ş›Á
+ = 
+Ãw
+ 
+	`TCPCl›Á
+(
+this
+);
+
+100 
+ş›Á
+->
+	`cÚÃù
+(
+sock‘
+);
+
+101 
+QObjeù
+::
+	`cÚÃù
+(
+ş›Á
+, 
+	`SIGNAL
+(
+	`d©aReûived
+(
+QBy‹A¼ay
+)), 
+this
+, 
+	`SLOT
+(
+	`ş›ÁD©aReûived
+(QByteArray)));
+
+102 
+QObjeù
+::
+	`cÚÃù
+(
+ş›Á
+, 
+	`SIGNAL
+(
+	`šfo
+(
+QSŒšg
+,QSŒšg)), 
+this
+, 
+	`SLOT
+(
+	`ş›ÁInfo
+(QString,QString)));
+
+103 
+QObjeù
+::
+	`cÚÃù
+(
+ş›Á
+, 
+	`SIGNAL
+(
+	`w¬nšg
+(
+QSŒšg
+,QSŒšg)), 
+this
+, 
+	`SLOT
+(
+	`ş›ÁW¬nšg
+(QString,QString)));
+
+104 
+QObjeù
+::
+	`cÚÃù
+(
+ş›Á
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QSŒšg
+,QSŒšg)), 
+this
+, 
+	`SLOT
+(
+	`ş›ÁE¼Ü
+(QString,QString)));
+
+106 
+ş›ÁM­
+[
+sock‘
+] = 
+ş›Á
+;
+
+109 
+em™
+ 
+	`cÚÃùiÚCouÁ
+(
+sock‘M­
+.
+	`size
+());
+
+110 
+	}
+}
+
+112 
+	gTCPS”v”
+::
+	$discÚÃùCl›Á
+()
+
+114 
+QTıSock‘
+* 
+sock‘
+ = (QTıSock‘*)
+	`£nd”
+();
+
+117 
+ş›ÁM­
+[
+sock‘
+]->
+	`discÚÃù
+();
+
+118 
+ş›ÁM­
+[
+sock‘
+]->
+	`d–‘eL©”
+();
+
+119 
+ş›ÁM­
+.
+	`»move
+(
+sock‘
+);
+
+120 
+sock‘M­
+[
+sock‘
+]->
+	`şo£
+();
+
+121 
+sock‘M­
+[
+sock‘
+]->
+	`d–‘eL©”
+();
+
+122 
+sock‘M­
+.
+	`»move
+(
+sock‘
+);
+
+124 
+em™
+ 
+	`cÚÃùiÚCouÁ
+(
+sock‘M­
+.
+	`size
+());
+
+125 
+	}
+}
+
+127 
+	gTCPS”v”
+::
+	$ş›ÁInfo
+(cÚ¡ 
+QSŒšg
+ &
+£nd”
+, cÚ¡ QSŒšg &
+mes§ge
+)
+
+129 
+em™
+ 
+	`šfo
+(
+şas¢ame
+ + "->" + 
+£nd”
+, 
+mes§ge
+);
+
+130 
+	}
+}
+
+132 
+	gTCPS”v”
+::
+	$ş›ÁW¬nšg
+(cÚ¡ 
+QSŒšg
+ &
+£nd”
+, cÚ¡ QSŒšg &
+mes§ge
+)
+
+134 
+em™
+ 
+	`w¬nšg
+(
+şas¢ame
+ + "->" + 
+£nd”
+, 
+mes§ge
+);
+
+135 
+	}
+}
+
+137 
+	gTCPS”v”
+::
+	$ş›ÁE¼Ü
+(cÚ¡ 
+QSŒšg
+ &
+£nd”
+, cÚ¡ QSŒšg &
+mes§ge
+)
+
+139 
+em™
+ 
+	`”rÜ
+(
+şas¢ame
+ + "->" + 
+£nd”
+, 
+mes§ge
+);
+
+140 
+	}
+}
+
+142 
+QBy‹A¼ay
+ 
+	$IÁToA¼ay
+(
+qšt16
+ 
+sourû
+)
+
+145 
+QBy‹A¼ay
+ 
+‹mp
+;
+
+146 
+QD©aSŒ—m
+ 
+	`d©a
+(&
+‹mp
+, 
+QIODeviû
+::
+R—dWr™e
+);
+
+147 
+d©a
+ << 
+sourû
+;
+
+148  
+‹mp
+;
+
+149 
+	}
+}
+
+	@tcpserver/tcpserver.h
+
+7 #iâdeà
+TCPSERVER_H
+
+
+8 
+	#TCPSERVER_H
+
+
+	)
+
+10 
+	~<QTim”
+>
+
+11 
+	~<QObjeù
+>
+
+12 
+	~<QTıS”v”
+>
+
+13 
+	~<QTıSock‘
+>
+
+15 
+	~<QM­
+>
+
+16 
+	~<QBy‹A¼ay
+>
+
+17 
+	~<QD©aSŒ—m
+>
+
+19 
+	~"tış›Á.h
+"
+
+21 şas 
+	cTCPS”v”
+ : 
+public
+ 
+QObjeù
+
+
+23 
+Q_OBJECT
+
+
+25 
+public
+:
+
+26 
+TCPS”v”
+(
+QObjeù
+* 
+·»Á
+ = 0);
+
+28 
+boŞ
+ 
+¡¬t
+(cÚ¡ 
+qušt16
+ &
+pÜt
+);
+
+29 
+¡İ
+();
+
+31 
+	msigÇls
+:
+
+32 
+d©aReûived
+(
+QBy‹A¼ay
+ 
+d©a
+);
+
+33 
+cÚÃùiÚCouÁ
+(
+couÁ
+);
+
+35 
+šfo
+(
+QSŒšg
+ 
+£nd”
+, QString info);
+
+36 
+w¬nšg
+(
+QSŒšg
+ 
+£nd”
+, QString warning);
+
+37 
+”rÜ
+(
+QSŒšg
+ 
+£nd”
+, QStringƒrror);
+
+39 
+public
+ 
+	m¦Ùs
+:
+
+40 
+£ndD©a
+(cÚ¡ 
+QBy‹A¼ay
+ &
+d©a
+);
+
+41 
+ş›ÁD©aReûived
+(cÚ¡ 
+QBy‹A¼ay
+ &
+d©a
+);
+
+43 
+´iv©e
+ 
+	m¦Ùs
+:
+
+44 
+cÚÃùCl›Á
+();
+
+45 
+discÚÃùCl›Á
+();
+
+47 
+ş›ÁInfo
+(cÚ¡ 
+QSŒšg
+ &
+£nd”
+, cÚ¡ QSŒšg &
+mes§ge
+);
+
+48 
+ş›ÁW¬nšg
+(cÚ¡ 
+QSŒšg
+ &
+£nd”
+, cÚ¡ QSŒšg &
+mes§ge
+);
+
+49 
+ş›ÁE¼Ü
+(cÚ¡ 
+QSŒšg
+ &
+£nd”
+, cÚ¡ QSŒšg &
+mes§ge
+);
+
+51 
+	m´iv©e
+:
+
+52 
+QTıS”v”
+ *
+£rv”
+;
+
+53 
+	mQM­
+<
+	mQTıSock‘
+ *, QTıSock‘ *> 
+	msock‘M­
+;
+
+54 
+	mQM­
+<
+	mQTıSock‘
+ *, 
+	mTCPCl›Á
+ *> 
+	mş›ÁM­
+;
+
+56 
+QSŒšg
+ 
+	mşas¢ame
+;
+
+	@udpclient/moc_udpclient.cpp
+
+10 
+	~"udpş›Á.h
+"
+
+11 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+13 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 63
+
+19 
+QT_BEGIN_MOC_NAMESPACE
+
+
+20 cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_UDPCl›Á
+[] = {
+
+47 cÚ¡ 
+	gqt_m‘a_¡ršgd©a_UDPCl›Á
+[] = {
+
+56 
+	gUDPCl›Á
+::
+qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+58 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+59 
+Q_ASSERT
+(
+¡©icM‘aObjeù
+.
+ÿ¡
+(
+_o
+));
+
+60 
+UDPCl›Á
+ *
+	g_t
+ = 
+¡©ic_ÿ¡
+<UDPCl›Á *>(
+_o
+);
+
+61 
+	g_id
+) {
+
+62 0: 
+_t
+->
+d©aReûived
+((*
+»š‹½»t_ÿ¡
+< 
+QBy‹A¼ay
+(*)>(
+_a
+[1]))); ;
+
+63 1: 
+_t
+->
+šfo
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+64 2: 
+_t
+->
+w¬nšg
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+65 3: 
+_t
+->
+”rÜ
+((*
+»š‹½»t_ÿ¡
+< 
+QSŒšg
+(*)>(
+_a
+[1])),(*reinterpret_cast< QString(*)>(_a[2]))); ;
+
+66 4: 
+_t
+->
+£ndD©a
+((*
+»š‹½»t_ÿ¡
+< cÚ¡ 
+QBy‹A¼ay
+(*)>(
+_a
+[1]))); ;
+
+67 5: 
+_t
+->
+»adD©a
+(); ;
+
+68 6: 
+_t
+->
+di¥ÏyE¼Ü
+((*
+»š‹½»t_ÿ¡
+< 
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+(*)>(
+_a
+[1]))); ;
+
+74 cÚ¡ 
+QM‘aObjeùExŒaD©a
+ 
+	gUDPCl›Á
+::
+¡©icM‘aObjeùExŒaD©a
+ = {
+
+75 0, 
+qt_¡©ic_m‘aÿÎ
+
+
+78 cÚ¡ 
+QM‘aObjeù
+ 
+	gUDPCl›Á
+::
+¡©icM‘aObjeù
+ = {
+
+79 { &
+QObjeù
+::
+¡©icM‘aObjeù
+, 
+qt_m‘a_¡ršgd©a_UDPCl›Á
+,
+
+80 
+qt_m‘a_d©a_UDPCl›Á
+, &
+¡©icM‘aObjeùExŒaD©a
+ }
+
+83 #ifdeà
+Q_NO_DATA_RELOCATION
+
+
+84 cÚ¡ 
+	gQM‘aObjeù
+ &
+	gUDPCl›Á
+::
+	$g‘SticM‘aObjeù
+(è{  
+¡©icM‘aObjeù
+; 
+	}
+}
+
+87 cÚ¡ 
+QM‘aObjeù
+ *
+	gUDPCl›Á
+::
+	$m‘aObjeù
+() const
+
+89  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->m‘aObjeù : &
+¡©icM‘aObjeù
+;
+
+90 
+	}
+}
+
+92 *
+	gUDPCl›Á
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_şÇme
+)
+
+94 ià(!
+_şÇme
+)  0;
+
+95 ià(!
+	`¡rcmp
+(
+_şÇme
+, 
+qt_m‘a_¡ršgd©a_UDPCl›Á
+))
+
+96  
+¡©ic_ÿ¡
+<*>(
+cÚ¡_ÿ¡
+< 
+UDPCl›Á
+*>(
+this
+));
+
+97  
+QObjeù
+::
+	`qt_m‘aÿ¡
+(
+_şÇme
+);
+
+98 
+	}
+}
+
+100 
+	gUDPCl›Á
+::
+qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+102 
+	g_id
+ = 
+QObjeù
+::
+qt_m‘aÿÎ
+(
+_c
+, 
+_id
+, 
+_a
+);
+
+103 ià(
+	g_id
+ < 0)
+
+104  
+	g_id
+;
+
+105 ià(
+	g_c
+ =ğ
+QM‘aObjeù
+::
+InvokeM‘aM‘hod
+) {
+
+106 ià(
+_id
+ < 7)
+
+107 
+qt_¡©ic_m‘aÿÎ
+(
+this
+, 
+_c
+, 
+_id
+, 
+_a
+);
+
+108 
+	g_id
+ -= 7;
+
+110  
+	g_id
+;
+
+114 
+	gUDPCl›Á
+::
+	$d©aReûived
+(
+QBy‹A¼ay
+ 
+_t1
+)
+
+116 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)) };
+
+117 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 0, 
+_a
+);
+
+118 
+	}
+}
+
+121 
+	gUDPCl›Á
+::
+	$šfo
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+123 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+124 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 1, 
+_a
+);
+
+125 
+	}
+}
+
+128 
+	gUDPCl›Á
+::
+	$w¬nšg
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+130 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+131 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 2, 
+_a
+);
+
+132 
+	}
+}
+
+135 
+	gUDPCl›Á
+::
+	$”rÜ
+(
+QSŒšg
+ 
+_t1
+, QSŒšg 
+_t2
+)
+
+137 *
+_a
+[] = { 0, 
+cÚ¡_ÿ¡
+<*>(
+»š‹½»t_ÿ¡
+<cÚ¡ *>(&
+_t1
+)), cÚ¡_ÿ¡<*>Ôeš‹½»t_ÿ¡<cÚ¡ *>(&
+_t2
+)) };
+
+138 
+QM‘aObjeù
+::
+	`aùiv©e
+(
+this
+, &
+¡©icM‘aObjeù
+, 3, 
+_a
+);
+
+139 
+	}
+}
+
+140 
+	gQT_END_MOC_NAMESPACE
+
+
+	@udpclient/udpclient.cpp
+
+7 
+	~"udpş›Á.h
+"
+
+9 
+	gUDPCl›Á
+::
+	$UDPCl›Á
+(
+QObjeù
+ *
+·»Á
+) :
+
+10 
+	`QObjeù
+(
+·»Á
+), 
+	$udpSock‘
+(0)
+
+12 
+şas¢ame
+ = "UDPClient";
+
+13 
+	}
+}
+
+15 
+boŞ
+ 
+	gUDPCl›Á
+::
+	$cÚÃù
+(cÚ¡ 
+qšt64
+ &
+pÜt
+)
+
+18 if(
+udpSock‘
+)
+
+19  
+çl£
+;
+
+22 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "li¡’šgØpÜˆ" + 
+QSŒšg
+::
+	`numb”
+(
+pÜt
+));
+
+23 
+this
+->
+pÜt
+ =…ort;
+
+25 
+udpSock‘
+ = 
+Ãw
+ 
+	`QUdpSock‘
+(
+this
+);
+
+26 
+£ndD©aF‹r
+.
+	`ş—r
+();
+
+29 ià(!
+QObjeù
+::
+	`cÚÃù
+(
+udpSock‘
+, 
+	`SIGNAL
+(
+	`»adyR—d
+()), 
+this
+, 
+	`SLOT
+(
+	`»adD©a
+())))
+
+30 
+em™
+ 
+	`”rÜ
+(
+şas¢ame
+, "could‚ot connecto„eadData");
+
+31 
+QObjeù
+::
+	`cÚÃù
+(
+udpSock‘
+, 
+	`SIGNAL
+(
+	`”rÜ
+(
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+)), 
+this
+, 
+	`SLOT
+(
+	`di¥ÏyE¼Ü
+(QAbstractSocket::SocketError)));
+
+33 #ifdeà
+Q_OS_WIN32
+
+
+35 ià(!
+udpSock‘
+->
+	`bšd
+(
+pÜt
+, 
+QUdpSock‘
+::
+Reu£Add»ssHšt
+))
+
+37 
+em™
+ 
+	`”rÜ
+(
+şas¢ame
+, "bind (with ReuseAddressHint) failed (win32)");
+
+38  
+çl£
+;
+
+41 ià(!
+udpSock‘
+->
+	`bšd
+(
+pÜt
+, 
+QUdpSock‘
+::
+Sh¬eAdd»ss
+))
+
+43 
+em™
+ 
+	`”rÜ
+(
+şas¢ame
+, "bind (with ShareAddress) failed");
+
+44  
+çl£
+;
+
+48  
+Œue
+;
+
+49 
+	}
+}
+
+51 
+	gUDPCl›Á
+::
+	$discÚÃù
+()
+
+53 
+em™
+ 
+	`w¬nšg
+(
+şas¢ame
+, "disconnected");
+
+56 
+udpSock‘
+->
+	`discÚÃùFromHo¡
+();
+
+57 
+udpSock‘
+->
+	`d–‘eL©”
+();
+
+60 
+udpSock‘
+ = 0;
+
+61 
+	}
+}
+
+63 
+	gUDPCl›Á
+::
+	$£ndD©a
+(cÚ¡ 
+QBy‹A¼ay
+ &
+d©a
+)
+
+65 ià(!
+udpSock‘
+)
+
+68 
+£ndD©aF‹r
+.
+	`­³nd
+(
+d©a
+);
+
+70 
+udpSock‘
+->
+	`wr™eD©ag¿m
+(
+d©a
+.
+	`d©a
+(), d©a.
+	`size
+(), 
+QHo¡Add»ss
+::
+Brßdÿ¡
+, 
+pÜt
+);
+
+71 
+udpSock‘
+->
+	`æush
+();
+
+73 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "£nd d©a: " + 
+	`QSŒšg
+(
+d©a
+));
+
+74 
+	}
+}
+
+76 
+	gUDPCl›Á
+::
+	$»adD©a
+()
+
+79 
+udpSock‘
+->
+	`hasP’dšgD©ag¿ms
+()) {
+
+81 
+QBy‹A¼ay
+ 
+d©a
+;
+
+82 
+d©a
+.
+	`»size
+(
+udpSock‘
+->
+	`³ndšgD©ag¿mSize
+());
+
+83 
+udpSock‘
+->
+	`»adD©ag¿m
+(
+d©a
+.
+	`d©a
+(), d©a.
+	`size
+());
+
+86 ià(
+£ndD©aF‹r
+.
+	`cÚšs
+(
+d©a
+))
+
+88 
+£ndD©aF‹r
+.
+	`»moveOÃ
+(
+d©a
+);
+
+92 
+em™
+ 
+	`šfo
+(
+şas¢ame
+, "»ûived d©a: " + 
+	`QSŒšg
+(
+d©a
+));
+
+93 
+em™
+ 
+	`d©aReûived
+(
+d©a
+);
+
+95 
+	}
+}
+
+97 
+	gUDPCl›Á
+::
+di¥ÏyE¼Ü
+(
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+ 
+sock‘E¼Ü
+)
+
+99 
+QSŒšg
+ 
+mes§ge
+;
+
+100 
+	gsock‘E¼Ü
+) {
+
+101 
+	gQAb¡¿ùSock‘
+::
+RemÙeHo¡Clo£dE¼Ü
+:
+
+102 
+mes§ge
+ = "QAbstractSocket::RemoteHostClosedError";
+
+104 
+	gQAb¡¿ùSock‘
+::
+Ho¡NÙFoundE¼Ü
+:
+
+105 
+mes§ge
+ = "(QAbstractSocket::HostNotFoundError) Fortune Client. The host was‚ot found. Please checkhe host‚ame‡nd…ort settings.";
+
+107 
+	gQAb¡¿ùSock‘
+::
+CÚÃùiÚRefu£dE¼Ü
+:
+
+108 
+mes§ge
+ = "(QAbstractSocket::HostNotFoundError) The connection was„efused byhe…eer. Make surehe fortune server is„unning,‡nd checkhathe host‚ame‡nd…ort settings‡re correct.";
+
+111 
+mes§ge
+ = "(QAb¡¿ùSock‘::deçuÉèThfŞlowšgƒ¼Ü occu»d: " + 
+udpSock‘
+->
+”rÜSŒšg
+();
+
+114 
+em™
+ 
+”rÜ
+(
+şas¢ame
+, 
+mes§ge
+);
+
+115 
+discÚÃù
+();
+
+	@udpclient/udpclient.h
+
+7 #iâdeà
+UDPCLIENT_H
+
+
+8 
+	#UDPCLIENT_H
+
+
+	)
+
+10 
+	~<QLi¡
+>
+
+11 
+	~<QObjeù
+>
+
+12 
+	~<QSŒšg
+>
+
+13 
+	~<QBy‹A¼ay
+>
+
+14 
+	~<QUdpSock‘
+>
+
+16 şas 
+	cUDPCl›Á
+ : 
+public
+ 
+QObjeù
+
+
+18 
+Q_OBJECT
+
+
+19 
+public
+:
+
+20 
+ex¶ic™
+ 
+UDPCl›Á
+(
+QObjeù
+ *
+·»Á
+ = 0);
+
+22 
+boŞ
+ 
+cÚÃù
+(cÚ¡ 
+qšt64
+ &
+pÜt
+ = 49999);
+
+23 
+discÚÃù
+();
+
+25 
+	msigÇls
+:
+
+26 
+d©aReûived
+(
+QBy‹A¼ay
+ 
+d©a
+);
+
+28 
+šfo
+(
+QSŒšg
+ 
+£nd”
+, QString info);
+
+29 
+w¬nšg
+(
+QSŒšg
+ 
+£nd”
+, QString warning);
+
+30 
+”rÜ
+(
+QSŒšg
+ 
+£nd”
+, QStringƒrror);
+
+32 
+public
+ 
+	m¦Ùs
+:
+
+33 
+£ndD©a
+(cÚ¡ 
+QBy‹A¼ay
+ &
+d©a
+);
+
+35 
+´iv©e
+ 
+	m¦Ùs
+:
+
+36 
+»adD©a
+();
+
+37 
+di¥ÏyE¼Ü
+(
+QAb¡¿ùSock‘
+::
+Sock‘E¼Ü
+ 
+sock‘E¼Ü
+);
+
+39 
+	m´iv©e
+:
+
+40 
+qšt64
+ 
+pÜt
+;
+
+41 
+QUdpSock‘
+ *
+	mudpSock‘
+;
+
+43 
+QSŒšg
+ 
+	mşas¢ame
+;
+
+44 
+	mQLi¡
+<
+	mQBy‹A¼ay
+> 
+	m£ndD©aF‹r
+;
+
+	@
+1
+.
+1
+/usr/include
+22
+502
+htmllogger/htmllogger.cpp
+htmllogger/htmllogger.h
+htmllogger/moc_htmllogger.cpp
+snbgui/main.cpp
+snbgui/moc_snbgui.cpp
+snbgui/snbgui.cpp
+snbgui/snbgui.h
+snbgui/ui_snbgui.h
+snbtests/main.cpp
+snbtests/moc_snbtests.cpp
+snbtests/snbtests.cpp
+snbtests/snbtests.h
+snbtests/ui_snbtests.h
+tcpclient/moc_tcpclient.cpp
+tcpclient/tcpclient.cpp
+tcpclient/tcpclient.h
+tcpserver/moc_tcpserver.cpp
+tcpserver/tcpserver.cpp
+tcpserver/tcpserver.h
+udpclient/moc_udpclient.cpp
+udpclient/udpclient.cpp
+udpclient/udpclient.h

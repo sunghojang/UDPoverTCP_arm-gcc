@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'snbgui.ui'
 **
-** Created: Fri Aug 24 11:36:12 2018
+** Created: Fri Aug 24 15:36:09 2018
 **      by: Qt User Interface Compiler version 4.8.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
